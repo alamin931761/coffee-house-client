@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -9,33 +7,15 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
-import coffeaImage from "@/assets/images/coffea.png";
+import coffeaImage from "../../assets/images/coffea.png";
 import HorizontalLine from "../HorizontalLine";
-import { Variants, motion } from "framer-motion";
-
-// animation
-const coffea: Variants = {
-  initial: { scale: 0.9 },
-  animate: {
-    scale: 1,
-    transition: {
-      scale: {
-        type: "spring",
-        bounce: 0.5,
-        repeat: Infinity,
-        repeatType: "reverse",
-        duration: 2,
-      },
-    },
-  },
-};
 
 const Footer = () => {
   return (
     <footer>
-      <div className="flex justify-between">
+      <div className="grid grid-cols-1 lg:grid-cols-5">
         {/* opening hours */}
-        <div className="uppercase">
+        <div className="uppercase border border-red-500">
           <h6 className="text-xl font-bold">Opening Hours</h6>
           <div className="text-sm mt-10 flex flex-col gap-y-3">
             <p>
@@ -74,7 +54,7 @@ const Footer = () => {
         </div>
 
         {/* contact us */}
-        <div>
+        <div className="border border-blue-500">
           <h6 className="text-xl font-bold uppercase">Contact us</h6>
           <div className="text-sm mt-10">
             <p>+8801741931761</p>
@@ -83,12 +63,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <motion.div variants={coffea} initial="initial" animate="animate">
+        {/* image */}
+        <div className="border border-indigo-700 flex lg:justify-center">
           <Image src={coffeaImage} width={200} height={200} alt="coffea" />
-        </motion.div>
+        </div>
 
         {/* information */}
-        <div>
+        <div className="border border-green-500">
           <h6 className="text-xl font-bold uppercase">Information</h6>
           <div className="text-sm mt-10 flex flex-col gap-y-3">
             <Link href="/">About</Link>
@@ -98,7 +79,7 @@ const Footer = () => {
         </div>
 
         {/* other locations */}
-        <div>
+        <div className="border border-purple-500">
           <h6 className="text-xl font-bold uppercase">Other locations</h6>
           <div className="text-sm mt-10">
             <div>
