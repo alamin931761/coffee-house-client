@@ -1,10 +1,11 @@
 import HomePageSectionTitle from "@/components/home/HomePageSectionTitle";
 import CoffeeFlavour from "@/components/CoffeeFlavour";
 import Link from "next/link";
+import Container from "../shared/Container";
 
 const FavouriteCoffeeFlavours = async () => {
   return (
-    <div>
+    <Container>
       <HomePageSectionTitle sectionTitle="favourite coffee flavours." />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -47,7 +48,7 @@ const FavouriteCoffeeFlavours = async () => {
           View menu
         </Link>
       </div>
-    </div>
+    </Container>
   );
 };
 

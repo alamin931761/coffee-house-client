@@ -3,14 +3,12 @@ import CoffeeExperience from "@/components/home/CoffeeExperience";
 import FavouriteCoffeeFlavours from "@/components/home/FavouriteCoffeeFlavours";
 import Gallery from "@/components/home/Gallery";
 import Carousel from "@/components/home/carousel/Carousel";
-import { useEffect } from "react";
 
 const HomePage = () => {
   return (
     <div>
       <Carousel />
       <FavouriteCoffeeFlavours />
-
       <CoffeeEquipments />
       <CoffeeExperience />
       <Gallery />

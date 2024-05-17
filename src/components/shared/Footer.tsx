@@ -9,46 +9,50 @@ import {
 } from "react-icons/fa";
 import coffeaImage from "../../assets/images/coffea.png";
 import HorizontalLine from "../HorizontalLine";
+import { oswald } from "@/app/fonts";
 
 const Footer = () => {
   return (
     <footer>
-      <div className="grid grid-cols-1 lg:grid-cols-5">
+      <div
+        className={`grid grid-cols-1 lg:grid-cols-5 bg-black ${oswald.className} bg-opacity-50 text-white`}
+      >
         {/* opening hours */}
-        <div className="uppercase border border-red-500">
+        <div className="uppercase border border-red-500 ">
           <h6 className="text-xl font-bold">Opening Hours</h6>
           <div className="text-sm mt-10 flex flex-col gap-y-3">
             <p>
-              Monday <HorizontalLine className="w-28 border-b-2" /> Closed
+              Monday <HorizontalLine className="w-28 border-b-2" />{" "}
+              <span className="text-[#C7A17A]">Closed</span>
             </p>
 
             <p>
-              Tuesday <HorizontalLine className="w-[82px] border-b-2" /> 9:00 -
-              22:00
+              Tuesday <HorizontalLine className="w-[82px] border-b-2" />{" "}
+              <span className="text-[#acacac]">9:00 - 22:00</span>
             </p>
 
             <p>
-              Wednesday <HorizontalLine className="w-[59px] border-b-2" /> 9:00
-              - 22:00
+              Wednesday <HorizontalLine className="w-[59px] border-b-2" />{" "}
+              <span className="text-[#acacac]">9:00 - 22:00</span>
             </p>
 
             <p>
-              Thursday <HorizontalLine className="w-[71px] border-b-2" /> 9:00 -
-              22:00
+              Thursday <HorizontalLine className="w-[71px] border-b-2" />{" "}
+              <span className="text-[#acacac]">9:00 - 22:00</span>
             </p>
 
             <p>
-              Friday * <HorizontalLine className="w-[97px] border-b-2" /> 9:00 -
-              1:00
+              Friday * <HorizontalLine className="w-[97px] border-b-2" />{" "}
+              <span className="text-[#acacac]">9:00 - 1:00</span>
             </p>
             <p>
-              Saturday * <HorizontalLine className="w-[70px] border-b-2" />
-              12:00 - 1:00
+              Saturday * <HorizontalLine className="w-[70px] border-b-2" />{" "}
+              <span className="text-[#acacac]">12:00 - 1:00</span>
             </p>
 
             <p>
-              Sunday * <HorizontalLine className="w-[80px] border-b-2" /> 9:00 -
-              12:00
+              Sunday * <HorizontalLine className="w-[80px] border-b-2" />{" "}
+              <span className="text-[#acacac]">9:00 - 12:00</span>
             </p>
           </div>
         </div>
@@ -57,9 +61,9 @@ const Footer = () => {
         <div className="border border-blue-500">
           <h6 className="text-xl font-bold uppercase">Contact us</h6>
           <div className="text-sm mt-10">
-            <p>+8801741931761</p>
-            <p className="my-3">alamin931761@gmail.com</p>
-            <p>Gazipur, Bangladesh</p>
+            <p className="text-[#C7A17A]">+8801741931761</p>
+            <p className="my-3 text-[#acacac]">alamin931761@gmail.com</p>
+            <p className="text-[#acacac]">Gazipur, Bangladesh</p>
           </div>
         </div>
 
@@ -71,10 +75,12 @@ const Footer = () => {
         {/* information */}
         <div className="border border-green-500">
           <h6 className="text-xl font-bold uppercase">Information</h6>
-          <div className="text-sm mt-10 flex flex-col gap-y-3">
-            <Link href="/">About</Link>
-            <Link href="/">Contact</Link>
-            <Link href="/">Reservation</Link>
+          <div className="text-sm mt-10 flex flex-col gap-y-3 text-[#acacac]">
+            <Link href="/about-us">About Us</Link>
+            <Link href="/contact">Contact</Link>
+            <Link href="/reservation">Reservation</Link>
+            <Link href="/meet-our-team">Meet Our Team</Link>
+            <Link href="/what-we-offer">What We Offer</Link>
           </div>
         </div>
 
@@ -84,22 +90,22 @@ const Footer = () => {
           <div className="text-sm mt-10">
             <div>
               <p className="font-bold uppercase">Coffee House</p>
-              <p>Dhaka, Bangladesh</p>
+              <p className="text-[#acacac]">Dhaka, Bangladesh</p>
             </div>
 
             <div className="my-3">
               <p className="font-bold uppercase">Coffee House</p>
-              <p>Chittagong, Bangladesh</p>
+              <p className="text-[#acacac]">Chittagong, Bangladesh</p>
             </div>
 
             <div>
               <p className="font-bold uppercase">Coffee House</p>
-              <p>Sylhet, Bangladesh</p>
+              <p className="text-[#acacac]">Sylhet, Bangladesh</p>
             </div>
 
             <div className="mt-3">
               <p className="font-bold uppercase">Coffee House</p>
-              <p>Khulna, Bangladesh</p>
+              <p className="text-[#acacac]">Khulna, Bangladesh</p>
             </div>
           </div>
         </div>
