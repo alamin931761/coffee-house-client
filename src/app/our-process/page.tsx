@@ -3,7 +3,7 @@ import PageTitle from "@/components/ui/PageTitle";
 import Image from "next/image";
 import { open_sans, oswald } from "../fonts";
 import { FaCheck } from "react-icons/fa";
-import HorizontalLine from "@/components/HorizontalLine";
+import HorizontalLine from "@/components/ui/HorizontalLine";
 
 const OurProcess = () => {
   return (

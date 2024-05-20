@@ -1,9 +1,9 @@
 import CoffeeEquipment from "./CoffeeEquipment";
-import coffeeCups from "../../assets/images/coffeeEquipments/coffee-cups.png";
-import coffeeGrinder from "../../assets/images/coffeeEquipments/coffee-grinder.png";
-import coffeeMaker from "../../assets/images/coffeeEquipments/coffee-maker.png";
-import expressoMachine from "../../assets/images/coffeeEquipments/expresso-machine.png";
-import Container from "../shared/Container";
+import coffeeCups from "../../../assets/images/coffeeEquipments/coffee-cups.png";
+import coffeeGrinder from "../../../assets/images/coffeeEquipments/coffee-grinder.png";
+import coffeeMaker from "../../../assets/images/coffeeEquipments/coffee-maker.png";
+import expressoMachine from "../../../assets/images/coffeeEquipments/expresso-machine.png";
+import Container from "../../shared/Container";
 
 const CoffeeEquipments = () => {
   return (

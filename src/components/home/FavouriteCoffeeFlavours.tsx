@@ -1,43 +1,28 @@
-import HomePageSectionTitle from "@/components/home/HomePageSectionTitle";
-import CoffeeFlavour from "@/components/CoffeeFlavour";
 import Link from "next/link";
 import Container from "../shared/Container";
+import SectionTitle from "../ui/SectionTitle";
+import { TMenuItem } from "@/types";
+import Menu from "../ui/Menu";
 
-const FavouriteCoffeeFlavours = async () => {
+const FavouriteCoffeeFlavours = ({
+  favouriteCoffeeFlavoursData,
+}: {
+  favouriteCoffeeFlavoursData: TMenuItem[];
+}) => {
   return (
     <Container>
-      <HomePageSectionTitle sectionTitle="favourite coffee flavours." />
+      <SectionTitle sectionTitle="favourite coffee flavours." />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <CoffeeFlavour
-          image="https://static.vecteezy.com/system/resources/previews/010/789/868/original/coffee-latte-with-heart-pattern-close-up-transparent-background-png.png"
-          flavourName="CAFFE LATTE"
-          details="Fresh brewed coffee and steamed milk"
-          price="2.95"
-          newFlavour={true}
-        />
-
-        <CoffeeFlavour
-          image="https://static.vecteezy.com/system/resources/previews/010/789/868/original/coffee-latte-with-heart-pattern-close-up-transparent-background-png.png"
-          flavourName="WHITE CHOCOLATE MOCHA"
-          details="Fresh brewed coffee and steamed milk"
-          price="2.95"
-        />
-
-        <CoffeeFlavour
-          image="https://static.vecteezy.com/system/resources/previews/010/789/868/original/coffee-latte-with-heart-pattern-close-up-transparent-background-png.png"
-          flavourName="ICED GINGERBREAD LATTE"
-          details="Fresh brewed coffee and steamed milk"
-          price="2.95"
-          newFlavour={true}
-        />
-
-        <CoffeeFlavour
-          image="https://static.vecteezy.com/system/resources/previews/010/789/868/original/coffee-latte-with-heart-pattern-close-up-transparent-background-png.png"
-          flavourName="WHITE CHOCOLATE MOCHA"
-          details="Fresh brewed coffee and steamed milk"
-          price="2.95"
-        />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-5">
+        {favouriteCoffeeFlavoursData.map((data: TMenuItem) => (
+          <Menu
+            key={data._id}
+            name={data.name}
+            description={data.description}
+            price={data.price}
+            newFlavour={data.newFlavour}
+          />
+        ))}
       </div>
 
       <div className="flex justify-center">

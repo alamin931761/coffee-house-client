@@ -12,6 +12,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "./Carousel.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";

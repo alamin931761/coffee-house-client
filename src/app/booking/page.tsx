@@ -2,7 +2,7 @@ import Container from "@/components/shared/Container";
 import { oswald } from "../fonts";
 import Image from "next/image";
 import image from "../../assets/images/reservation-2.jpg";
-import HorizontalLine from "@/components/HorizontalLine";
+import HorizontalLine from "@/components/ui/HorizontalLine";
 import BookingForm from "@/components/ui/BookingForm";
 import PageTitle from "@/components/ui/PageTitle";
 

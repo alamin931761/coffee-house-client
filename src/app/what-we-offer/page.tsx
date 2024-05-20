@@ -101,55 +101,6 @@ const WhatWeOfferPage = () => {
             description="Need a place for a business meeting or group study session? Reserve our private meeting spaces equipped with all the amenities you need."
           />
         </div>
-
-        <div>
-          <div>
-            <h3>Discover Our Specialty Coffee Selection</h3>
-            <p>
-              At Coffee House, we take pride in offering a diverse range of
-              specialty coffees to satisfy every palate. Our beans are sourced
-              from the finest coffee-growing regions around the world, ensuring
-              that each cup delivers a unique and exquisite flavor. Whether
-              you&apos;re a fan of rich, full-bodied dark roasts or prefer the
-              subtle nuances of light and medium roasts, our expertly curated
-              selection has something for everyone. Our baristas are passionate
-              about crafting the perfect cup, using precise brewing techniques
-              to highlight the distinct characteristics of each coffee variety.
-              Come explore our menu and find your new favorite brew today.
-            </p>
-          </div>
-
-          <div>
-            <h3>Experience the Ambiance at Coffee House</h3>
-            <p>
-              At Coffee House, we believe that enjoying coffee is more than just
-              a drink—it&apos;s an experience. Our coffee shop is designed to be
-              a cozy and inviting space where you can relax, unwind, and connect
-              with friends. With comfortable seating, warm lighting, and a
-              welcoming atmosphere, Coffee House is the perfect place to take a
-              break from the hustle and bustle of daily life. Whether
-              you&apos;re here to catch up on work, read a book, or simply enjoy
-              a moment of tranquility, our friendly staff is here to make your
-              visit special. Come in and feel at home at Coffee House.
-            </p>
-          </div>
-
-          <div>
-            <h3>Indulge in Our Freshly Baked Pastries and Snacks</h3>
-            <p>
-              At Coffee House, we understand that the perfect coffee experience
-              is incomplete without a delicious treat to accompany your
-              beverage. That&apos;s why we offer a variety of freshly baked
-              pastries and snacks made with high-quality ingredients. From flaky
-              croissants and decadent muffins to healthy granola bars and savory
-              sandwiches, our menu has something to satisfy every craving. Our
-              pastries are baked daily to ensure freshness and taste, making
-              them the perfect complement to our specialty coffees. Stop by and
-              indulge in a delightful pairing of coffee and pastries at Coffee
-              House.
-            </p>
-          </div>
-        </div>
       </Container>
     </div>
   );

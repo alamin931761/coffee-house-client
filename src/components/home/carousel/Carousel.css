@@ -11,5 +11,5 @@
 }
 
 .swiper-pagination-bullet {
-  background-color: white;
+  background-color: white !important;
 }

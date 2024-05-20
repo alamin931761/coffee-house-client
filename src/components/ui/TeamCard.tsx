@@ -18,7 +18,7 @@ const TeamCard = ({ imageURL, name, details }: TTeamCardProps) => {
         <p
           className={`text-[#C7A17A] text-sm italic font-light ${merriweather.className} my-2`}
         >
-          Owner, Coffee House
+          Master Chef, Coffee House
         </p>
         <p className={`text-sm ${open_sans.className}`}>{details}</p>
       </div>

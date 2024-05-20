@@ -34,13 +34,25 @@ const CoffeeExperienceCarousel = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Image src={image1} height={600} width={1200} alt="" />
+          <Image src={image1} height={420} width={650} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={image2} height={600} width={1200} alt="" />
+          <Image
+            src={image2}
+            layout="intrinsic"
+            height={420}
+            width={650}
+            alt=""
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={image3} height={600} width={1200} alt="" />
+          <Image
+            src={image3}
+            layout="intrinsic"
+            height={420}
+            width={650}
+            alt=""
+          />
         </SwiperSlide>
       </Swiper>
     </div>

@@ -1,6 +1,6 @@
-import HorizontalLine from "../HorizontalLine";
+import HorizontalLine from "./HorizontalLine";
 
-const HomePageSectionTitle = ({ sectionTitle }: { sectionTitle: string }) => {
+const SectionTitle = ({ sectionTitle }: { sectionTitle: string }) => {
   return (
     <div className="text-center">
       <h6 className="capitalize text-lg">what happens here</h6>
@@ -10,4 +10,4 @@ const HomePageSectionTitle = ({ sectionTitle }: { sectionTitle: string }) => {
   );
 };
 
-export default HomePageSectionTitle;
+export default SectionTitle;

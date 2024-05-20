@@ -11,9 +11,10 @@ const Navbar = () => {
       >
         Home
       </Link>
+
       <Link
         className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
-        href="/"
+        href="/our-menu"
       >
         Our Menu
       </Link>
@@ -55,7 +56,7 @@ const Navbar = () => {
 
       <Link
         className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
-        href="/"
+        href="/about-us"
       >
         About Us
       </Link>

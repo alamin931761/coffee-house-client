@@ -1,6 +1,6 @@
 import Container from "@/components/shared/Container";
 import { oswald } from "../fonts";
-import HorizontalLine from "@/components/HorizontalLine";
+import HorizontalLine from "@/components/ui/HorizontalLine";
 import ReservationForm from "@/components/ui/ReservationForm";
 import Image from "next/image";
 import image from "../../assets/images/reservation-2.jpg";
