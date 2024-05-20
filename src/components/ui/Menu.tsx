@@ -1,14 +1,8 @@
 import { merriweather, open_sans, oswald } from "@/app/fonts";
 import HorizontalLine from "./HorizontalLine";
+import { TMenuItem } from "@/types";
 
-type TMenuProps = {
-  name: string;
-  description: string;
-  price: number;
-  newFlavour: boolean;
-};
-
-const Menu = ({ name, description, price, newFlavour }: TMenuProps) => {
+const Menu = ({ name, description, price, newFlavour }: TMenuItem) => {
   return (
     <div>
       <div

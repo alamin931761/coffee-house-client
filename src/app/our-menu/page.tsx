@@ -18,6 +18,7 @@ const OurMenuPage = async () => {
             {menuData.map((data: TMenuItem) => (
               <Menu
                 key={data._id}
+                _id={data._id}
                 name={data.name}
                 description={data.description}
                 price={data.price}
