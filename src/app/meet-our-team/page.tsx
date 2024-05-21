@@ -11,7 +11,7 @@ const MeetOurTeamPage = async () => {
     <div>
       <PageTitle title="meet our team" />
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-x-10 gap-y-20">
           {teamData.map((data: TTeam) => (
             <TeamCard
               key={data._id}

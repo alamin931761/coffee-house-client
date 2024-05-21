@@ -23,7 +23,7 @@ const Input = ({ name, placeholder, errors, type, register }: InputProps) => {
         id={name}
         {...register}
         placeholder={placeholder}
-        className={`input rounded-none w-full focus:outline-none bg-[#F6F4EF] text-[#CAA782] placeholder-[#CAA782] focus:border focus:border-[#CAA782] ${merriweather.className} italic`}
+        className={`input rounded-none w-full focus:outline-none bg-[#F6F4EF] text-[#CAA782] text-sm placeholder-[#CAA782] focus:border focus:border-[#CAA782] ${merriweather.className} italic`}
       />
       {errors[name] && (
         <p className="text-xs ml-1 text-red-500 mt-[6px]">

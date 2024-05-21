@@ -21,10 +21,12 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
 
         {/* address */}
         <div className="ms-2">
-          <h6 className={`uppercase ${oswald.className} text-lg font-bold`}>
+          <h6 className={`uppercase ${oswald.className} text-base font-bold`}>
             address
           </h6>
-          <p className={`${open_sans.className} text-sm`}>{address}</p>
+          <p className={`${open_sans.className} text-sm text-[#acacac]`}>
+            {address}
+          </p>
         </div>
       </div>
 
@@ -35,10 +37,13 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
 
         {/* address */}
         <div className="ms-2">
-          <h6 className={`uppercase ${oswald.className} text-lg font-bold`}>
+          <h6 className={`uppercase ${oswald.className} text-base font-bold`}>
             phone
           </h6>
-          <a href={`tel:${phone}`} className={`${open_sans.className} text-sm`}>
+          <a
+            href={`tel:${phone}`}
+            className={`${open_sans.className} text-sm text-[#acacac]`}
+          >
             {phone}
           </a>
         </div>
@@ -51,12 +56,12 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
 
         {/* address */}
         <div className="ms-2">
-          <h6 className={`uppercase ${oswald.className} text-lg font-bold`}>
+          <h6 className={`uppercase ${oswald.className} text-base font-bold`}>
             email
           </h6>
           <a
             href={`mailto:${email}`}
-            className={`${open_sans.className} text-sm`}
+            className={`${open_sans.className} text-sm text-[#acacac]`}
           >
             {email}
           </a>
