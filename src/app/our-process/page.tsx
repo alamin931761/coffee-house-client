@@ -23,7 +23,7 @@ const OurProcess = () => {
           <h2 className={`${oswald.className} text-3xl font-bold`}>
             RAW COFFEE BEANS
           </h2>
-          <HorizontalLine className="w-[110px] border-b-4 my-5" />
+          <HorizontalLine className="w-[110px] border-b-4 border-[#CAA782] my-5" />
           <p className={`${open_sans.className} text-sm text-[#acacac]`}>
             Raw coffee beans are the cornerstone of exceptional coffee. At
             Coffee House, we source sustainably, ensuring unique flavors and

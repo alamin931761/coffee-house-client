@@ -70,7 +70,7 @@ const Navbar = () => {
 
       <Link
         className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
-        href="/"
+        href="/blog"
       >
         Blog
       </Link>

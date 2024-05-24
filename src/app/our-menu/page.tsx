@@ -2,6 +2,8 @@ import Container from "@/components/shared/Container";
 import Menu from "@/components/ui/Menu";
 import PageTitle from "@/components/ui/PageTitle";
 import { TMenuItem } from "@/types";
+import { oswald } from "../fonts";
+import HorizontalLine from "@/components/ui/HorizontalLine";
 
 const OurMenuPage = async () => {
   const response = await fetch("http://localhost:5000/menu");
@@ -13,7 +15,6 @@ const OurMenuPage = async () => {
       <Container>
         {/* Our Coffee Flavours */}
         <div>
-          <h2>Our Coffee Flavours</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-5">
             {menuData.map((data: TMenuItem) => (
               <Menu

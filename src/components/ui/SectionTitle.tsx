@@ -5,7 +5,7 @@ const SectionTitle = ({ sectionTitle }: { sectionTitle: string }) => {
     <div className="text-center">
       <h6 className="capitalize text-lg">what happens here</h6>
       <h2 className="text-4xl uppercase mt-2">{sectionTitle}</h2>
-      <HorizontalLine className="w-28 border-b-2" />
+      <HorizontalLine className="w-28 border-b-2 border-[#CAA782] my-5" />
     </div>
   );
 };

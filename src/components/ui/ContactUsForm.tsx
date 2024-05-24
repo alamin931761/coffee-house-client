@@ -71,7 +71,7 @@ const ContactUsForm = () => {
         />
       </div>
 
-      <FormSubmit>send</FormSubmit>
+      <FormSubmit className="mt-5">send</FormSubmit>
     </Form>
   );
 };

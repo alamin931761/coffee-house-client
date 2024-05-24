@@ -7,7 +7,7 @@ const PageTitle = ({ title }: { title: string }) => {
 
       <div className="h-full w-full bg-black bg-opacity-50 absolute top-0 flex justify-center items-center">
         <h2
-          className={`text-white text-3xl md:text-5xl lg:text-6xl uppercase ${oswald} font-bold`}
+          className={`text-white text-3xl md:text-5xl lg:text-6xl uppercase ${oswald.className} font-bold`}
         >
           {title}
         </h2>

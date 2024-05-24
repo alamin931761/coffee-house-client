@@ -23,6 +23,7 @@ const ReservationForm = () => {
 
   const handleReservation = (data: FieldValues) => {
     console.log(data);
+    // Thank you for your message. It has been sent.
   };
 
   return (
@@ -89,7 +90,7 @@ const ReservationForm = () => {
         placeholder="Notes"
       />
 
-      <FormSubmit>Submit</FormSubmit>
+      <FormSubmit className="mt-5">Submit</FormSubmit>
     </Form>
   );
 };

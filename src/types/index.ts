@@ -16,3 +16,13 @@ export type TTeam = {
   twitterURL: string;
   instagramURL: string;
 };
+
+export type TBlog = {
+  _id: string;
+  title: string;
+  author: string;
+  category: string;
+  imageURL: string;
+  description: string;
+  createdAt: string;
+};

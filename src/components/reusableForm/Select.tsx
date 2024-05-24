@@ -1,3 +1,4 @@
+import { merriweather } from "@/app/fonts";
 import { ReactNode } from "react";
 import { UseFormRegisterReturn } from "react-hook-form";
 
@@ -11,7 +12,9 @@ const Select = ({ register, children }: SelectProps) => {
     <div>
       <select
         {...register}
-        className="select rounded-none w-full focus:outline-none"
+        className={`select rounded-none focus:outline-none
+        bg-[#F6F4EF] w-full text-sm focus:border focus:border-[#CAA782] ${merriweather.className} italic
+        `}
       >
         {children}
       </select>

@@ -1,39 +1,45 @@
 import Container from "@/components/shared/Container";
-import { oswald } from "../fonts";
+import { open_sans, oswald } from "../fonts";
 import Image from "next/image";
-import image from "../../assets/images/reservation-2.jpg";
+import image from "../../assets/images/booking.jpg";
 import HorizontalLine from "@/components/ui/HorizontalLine";
-import BookingForm from "@/components/ui/BookingForm";
 import PageTitle from "@/components/ui/PageTitle";
-
+import BookingForm from "@/components/ui/BookingForm";
 const BookingPage = () => {
   return (
-    <div className="bg-[#EAE7DE]">
+    <div>
       <PageTitle title="Booking Page" />
 
       <Container>
-        <div className="grid lg:grid-cols-2">
+        <div className="grid lg:grid-cols-2 gap-10">
           <div>
-            <h2 className={`uppercase ${oswald} text-3xl font-bold`}>
+            <h2 className={`uppercase ${oswald.className} text-3xl font-bold`}>
               reserve your table here
             </h2>
-            <HorizontalLine className="w-[120px] border-b-4 mb-[6px]" />
+            <HorizontalLine className="w-[120px] border-b-4 border-[#CAA782] my-5" />
 
-            <p>
-              Welcome to Coffee House, where every cup of coffee tells a story.
-              Whether you&apos;re planning a cozy date, a catch-up with friends,
-              or a business meeting, securing your perfect spot at our café is
-              just a few clicks away.
+            <p className={`${open_sans.className} text-sm text-[#acacac]`}>
+              Step into Coffee House, where every moment is steeped in warmth
+              and flavor. Our &apos;Reserve Your Table Here&apos; section
+              welcomes you to a haven of relaxation and indulgence. Whether you
+              seek camaraderie with friends, a productive meeting spot, or a
+              quiet escape, we have the perfect table waiting. Savor our premium
+              coffee blends and delectable treats as you unwind in our inviting
+              ambiance. Let us tailor your experience, ensuring each visit is a
+              memorable journey of taste and tranquility. Your table awaits your
+              presence – book now and elevate your coffeehouse experience.
             </p>
           </div>
 
-          <div className="-rotate-90 border border-red-500 flex justify-center items-center">
-            <Image src={image} height={661} width={485} alt="" />
+          <div className="flex justify-center items-center">
+            <Image src={image} height={644} width={416} alt="" />
           </div>
         </div>
 
         {/* booking form */}
-        <BookingForm />
+        <div className="mt-10">
+          <BookingForm />
+        </div>
       </Container>
     </div>
   );
