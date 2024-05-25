@@ -16,9 +16,9 @@ const BookingPage = () => {
             <h2 className={`uppercase ${oswald.className} text-3xl font-bold`}>
               reserve your table here
             </h2>
-            <HorizontalLine className="w-[120px] border-b-4 border-[#CAA782] my-5" />
+            <HorizontalLine className="w-[120px] border-b-4 border-whiskey my-5" />
 
-            <p className={`${open_sans.className} text-sm text-[#acacac]`}>
+            <p className={`${open_sans.className} text-sm text-silver-chalice`}>
               Step into Coffee House, where every moment is steeped in warmth
               and flavor. Our &apos;Reserve Your Table Here&apos; section
               welcomes you to a haven of relaxation and indulgence. Whether you

@@ -16,7 +16,7 @@ const ReservationPage = () => {
           <h2 className={`uppercase ${oswald.className} text-3xl font-bold`}>
             reservation form
           </h2>
-          <HorizontalLine className="w-[120px] border-b-4 border-[#CAA782] my-5" />
+          <HorizontalLine className="w-[120px] border-b-4 border-whiskey my-5" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">

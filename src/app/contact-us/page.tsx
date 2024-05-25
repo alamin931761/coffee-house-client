@@ -19,7 +19,7 @@ const ContactUsPage = () => {
               >
                 write us
               </h2>
-              <HorizontalLine className="w-[120px] border-b-4 border-[#CAA782] my-5" />
+              <HorizontalLine className="w-[120px] border-b-4 border-whiskey my-5" />
             </div>
 
             <div className={`${open_sans.className} text-sm mb-10`}>
@@ -49,7 +49,7 @@ const ContactUsPage = () => {
               >
                 locations
               </h2>
-              <HorizontalLine className="w-[120px] border-b-4 border-[#CAA782] my-5" />
+              <HorizontalLine className="w-[120px] border-b-4 border-whiskey my-5" />
             </div>
 
             <p className={`${open_sans.className} text-sm mb-10`}>
@@ -88,7 +88,7 @@ const ContactUsPage = () => {
                 <ContactLocationCard
                   address="Sylhet, Bangladesh"
                   phone="+8801741931761"
-                  email="Khulna, Bangladesh"
+                  email="alamin931761@gmail.com"
                 />
               </div>
             </div>

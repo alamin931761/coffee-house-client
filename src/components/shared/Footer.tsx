@@ -22,43 +22,43 @@ const Footer = () => {
             <div className="text-sm mt-5 flex flex-col gap-y-3">
               <p className="flex text-nowrap">
                 Monday{" "}
-                <HorizontalLine className="w-full border-b-2 border-[#acacac] mx-1 mb-1" />{" "}
-                <span className="text-[#C7A17A]">Closed</span>
+                <HorizontalLine className="w-full border-b-2 border-silver-chalice mx-1 mb-1" />{" "}
+                <span className="text-whiskey">Closed</span>
               </p>
 
               <p className="flex text-nowrap">
                 Tuesday{" "}
-                <HorizontalLine className="w-full border-b-2 border-[#acacac] mx-1 mb-1" />{" "}
-                <span className="text-[#acacac]">9:00 - 22:00</span>
+                <HorizontalLine className="w-full border-b-2 border-silver-chalice mx-1 mb-1" />{" "}
+                <span className="text-silver-chalice">9:00 - 22:00</span>
               </p>
 
               <p className="flex text-nowrap">
                 Wednesday{" "}
-                <HorizontalLine className="w-full border-b-2 border-[#acacac] mx-1 mb-1" />{" "}
-                <span className="text-[#acacac]">9:00 - 22:00</span>
+                <HorizontalLine className="w-full border-b-2 border-silver-chalice mx-1 mb-1" />{" "}
+                <span className="text-silver-chalice">9:00 - 22:00</span>
               </p>
 
               <p className="flex text-nowrap">
                 Thursday{" "}
-                <HorizontalLine className="w-full border-b-2 border-[#acacac] mx-1 mb-1" />{" "}
-                <span className="text-[#acacac]">9:00 - 22:00</span>
+                <HorizontalLine className="w-full border-b-2 border-silver-chalice mx-1 mb-1" />{" "}
+                <span className="text-silver-chalice">9:00 - 22:00</span>
               </p>
 
               <p className="flex text-nowrap">
                 Friday *{" "}
-                <HorizontalLine className="w-full border-b-2 border-[#acacac] mx-1 mb-1" />{" "}
-                <span className="text-[#acacac]">9:00 - 1:00</span>
+                <HorizontalLine className="w-full border-b-2 border-silver-chalice mx-1 mb-1" />{" "}
+                <span className="text-silver-chalice">9:00 - 1:00</span>
               </p>
               <p className="flex text-nowrap">
                 Saturday *{" "}
-                <HorizontalLine className="w-full border-b-2 border-[#acacac] mx-1 mb-1" />{" "}
-                <span className="text-[#acacac]">12:00 - 1:00</span>
+                <HorizontalLine className="w-full border-b-2 border-silver-chalice mx-1 mb-1" />{" "}
+                <span className="text-silver-chalice">12:00 - 1:00</span>
               </p>
 
               <p className="flex text-nowrap">
                 Sunday *{" "}
-                <HorizontalLine className="w-full border-b-2 border-[#acacac] mx-1 mb-1" />{" "}
-                <span className="text-[#acacac]">9:00 - 12:00</span>
+                <HorizontalLine className="w-full border-b-2 border-silver-chalice mx-1 mb-1" />{" "}
+                <span className="text-silver-chalice">9:00 - 12:00</span>
               </p>
             </div>
           </div>
@@ -70,22 +70,22 @@ const Footer = () => {
               <div className="text-sm mt-5">
                 <div>
                   <p className="font-bold uppercase">Coffee House</p>
-                  <p className="text-[#acacac]">Dhaka, Bangladesh</p>
+                  <p className="text-silver-chalice">Dhaka, Bangladesh</p>
                 </div>
 
                 <div className="my-3">
                   <p className="font-bold uppercase">Coffee House</p>
-                  <p className="text-[#acacac]">Chittagong, Bangladesh</p>
+                  <p className="text-silver-chalice">Chittagong, Bangladesh</p>
                 </div>
 
                 <div>
                   <p className="font-bold uppercase">Coffee House</p>
-                  <p className="text-[#acacac]">Sylhet, Bangladesh</p>
+                  <p className="text-silver-chalice">Sylhet, Bangladesh</p>
                 </div>
 
                 <div className="mt-3">
                   <p className="font-bold uppercase">Coffee House</p>
-                  <p className="text-[#acacac]">Khulna, Bangladesh</p>
+                  <p className="text-silver-chalice">Khulna, Bangladesh</p>
                 </div>
               </div>
             </div>
@@ -96,11 +96,13 @@ const Footer = () => {
             <div>
               <h6 className="text-xl font-bold uppercase">Favourite picks</h6>
               <div className="text-sm mt-5 capitalize">
-                <p className="my-3 text-[#acacac]">esspreso</p>
-                <p className="text-[#acacac]">cafe latte</p>
-                <p className="my-3 text-[#acacac]">cafe americano</p>
-                <p className="my-3 text-[#acacac]">white chocolate mocha</p>
-                <p className="my-3 text-[#acacac]">Honey almond latte</p>
+                <p className="my-3 text-silver-chalice">esspreso</p>
+                <p className="text-silver-chalice">cafe latte</p>
+                <p className="my-3 text-silver-chalice">cafe americano</p>
+                <p className="my-3 text-silver-chalice">
+                  white chocolate mocha
+                </p>
+                <p className="my-3 text-silver-chalice">Honey almond latte</p>
               </div>
             </div>
           </div>
@@ -109,27 +111,27 @@ const Footer = () => {
           <div className="lg:flex flex-col items-center">
             <div>
               <h6 className="text-xl font-bold uppercase">Important Links</h6>
-              <div className="text-sm mt-5 flex flex-col gap-y-3 text-[#acacac] uppercase">
+              <div className="text-sm mt-5 flex flex-col gap-y-3 text-silver-chalice uppercase">
                 <Link
-                  className="hover:text-[#CAA782] transition ease-linear duration-500"
+                  className="hover:text-whiskey transition ease-linear duration-500"
                   href="/about-us"
                 >
                   About Us
                 </Link>
                 <Link
-                  className="hover:text-[#CAA782] transition ease-linear duration-500"
+                  className="hover:text-whiskey transition ease-linear duration-500"
                   href="/contact-us"
                 >
                   Contact Us
                 </Link>
                 <Link
-                  className="hover:text-[#CAA782] transition ease-linear duration-500"
+                  className="hover:text-whiskey transition ease-linear duration-500"
                   href="/reservation"
                 >
                   Reservation
                 </Link>
                 <Link
-                  className="hover:text-[#CAA782] transition ease-linear duration-500"
+                  className="hover:text-whiskey transition ease-linear duration-500"
                   href="/what-we-offer"
                 >
                   What we offer
@@ -142,11 +144,11 @@ const Footer = () => {
           <div className="lg:flex flex-col items-center">
             <div>
               <h6 className="text-xl font-bold uppercase">Contact us</h6>
-              <div className="text-sm mt-5 text-[#acacac]">
+              <div className="text-sm mt-5 text-silver-chalice">
                 <p>
                   Phone:{" "}
                   <a
-                    className="hover:text-[#CAA782] transition ease-linear duration-500"
+                    className="hover:text-whiskey transition ease-linear duration-500"
                     href="tel:+8801741931761"
                   >
                     +8801741931761
@@ -156,7 +158,7 @@ const Footer = () => {
                 <p className="my-3 ">
                   Email:{" "}
                   <a
-                    className="hover:text-[#CAA782] transition ease-linear duration-500"
+                    className="hover:text-whiskey transition ease-linear duration-500"
                     href="mailto:alamin931761@gmail.com"
                   >
                     alamin931761@gmail.com
@@ -170,37 +172,37 @@ const Footer = () => {
       </div>
 
       <div className="text-sm flex flex-col items-center lg:flex-row lg:justify-between gap-5 py-5 text-white bg-black px-16">
-        <p className="text-[#acacac]">&copy; Coffee House</p>
+        <p className="text-silver-chalice">&copy; Coffee House</p>
 
         {/* social media */}
         <div className="text-base flex gap-x-5">
           {/* instagram */}
           <a href="https://www.instagram.com" target="_blank">
-            <FaInstagram className="hover:text-[#CAA782] transition ease-linear duration-500" />
+            <FaInstagram className="hover:text-whiskey transition ease-linear duration-500" />
           </a>
 
           {/* twitter */}
           <a href="https://www.twitter.com" target="_blank">
-            <FaTwitter className="hover:text-[#CAA782] transition ease-linear duration-500" />
+            <FaTwitter className="hover:text-whiskey transition ease-linear duration-500" />
           </a>
 
           {/* facebook */}
           <a href="https://www.facebook.com" target="_blank">
-            <FaFacebookF className="hover:text-[#CAA782] transition ease-linear duration-500" />
+            <FaFacebookF className="hover:text-whiskey transition ease-linear duration-500" />
           </a>
 
           {/* facebook */}
           <a href="https://www.linkedin.com" target="_blank">
-            <FaLinkedinIn className="hover:text-[#CAA782] transition ease-linear duration-500" />
+            <FaLinkedinIn className="hover:text-whiskey transition ease-linear duration-500" />
           </a>
 
           {/* youtube */}
           <a href="https://www.youtube.com" target="_blank">
-            <FaYoutube className="hover:text-[#CAA782] transition ease-linear duration-500" />
+            <FaYoutube className="hover:text-whiskey transition ease-linear duration-500" />
           </a>
         </div>
 
-        <p className="text-[#acacac]">
+        <p className="text-silver-chalice">
           {new Date().getFullYear()} All Rights Reserved
         </p>
       </div>

@@ -16,7 +16,7 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
       <div className="flex">
         {/* icon */}
         <div>
-          <FaLocationDot className="inline mb-2 text-[#C7A17A] text-2xl" />
+          <FaLocationDot className="inline mb-2 text-whiskey text-2xl" />
         </div>
 
         {/* address */}
@@ -24,7 +24,7 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
           <h6 className={`uppercase ${oswald.className} text-base font-bold`}>
             address
           </h6>
-          <p className={`${open_sans.className} text-sm text-[#acacac]`}>
+          <p className={`${open_sans.className} text-sm text-silver-chalice`}>
             {address}
           </p>
         </div>
@@ -33,7 +33,7 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
       {/* ------------------- phone card ------------------- */}
       <div className="flex my-3">
         {/* icon */}
-        <SlPhone className="inline mb-2 text-[#C7A17A] text-2xl" />
+        <SlPhone className="inline mb-2 text-whiskey text-2xl" />
 
         {/* address */}
         <div className="ms-2">
@@ -42,7 +42,7 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
           </h6>
           <a
             href={`tel:${phone}`}
-            className={`${open_sans.className} text-sm text-[#acacac]`}
+            className={`${open_sans.className} text-sm text-silver-chalice`}
           >
             {phone}
           </a>
@@ -52,7 +52,7 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
       {/* ------------------- email card ------------------- */}
       <div className="flex">
         {/* icon */}
-        <AiOutlineMail className="inline text-[#C7A17A] text-2xl" />
+        <AiOutlineMail className="inline text-whiskey text-2xl" />
 
         {/* address */}
         <div className="ms-2">
@@ -61,7 +61,7 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
           </h6>
           <a
             href={`mailto:${email}`}
-            className={`${open_sans.className} text-sm text-[#acacac]`}
+            className={`${open_sans.className} text-sm text-silver-chalice`}
           >
             {email}
           </a>

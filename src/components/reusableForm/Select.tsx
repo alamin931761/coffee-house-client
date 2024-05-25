@@ -13,7 +13,7 @@ const Select = ({ register, children }: SelectProps) => {
       <select
         {...register}
         className={`select rounded-none focus:outline-none
-        bg-[#F6F4EF] w-full text-sm focus:border focus:border-[#CAA782] ${merriweather.className} italic
+        bg-fantasy w-full text-sm focus:border focus:border-whiskey ${merriweather.className} italic
         `}
       >
         {children}

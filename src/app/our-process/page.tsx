@@ -23,13 +23,13 @@ const OurProcess = () => {
           <h2 className={`${oswald.className} text-3xl font-bold`}>
             RAW COFFEE BEANS
           </h2>
-          <HorizontalLine className="w-[110px] border-b-4 border-[#CAA782] my-5" />
-          <p className={`${open_sans.className} text-sm text-[#acacac]`}>
+          <HorizontalLine className="w-[110px] border-b-4 border-whiskey my-5" />
+          <p className={`${open_sans.className} text-sm text-silver-chalice`}>
             Raw coffee beans are the cornerstone of exceptional coffee. At
             Coffee House, we source sustainably, ensuring unique flavors and
             high quality in every cup.
           </p>
-          <ul className={`${open_sans.className} text-sm text-[#CAA782] mt-5`}>
+          <ul className={`${open_sans.className} text-sm text-whiskey mt-5`}>
             <li>
               <FaCheck className="inline me-1" /> Sourced from sustainable
               farms.
@@ -49,18 +49,18 @@ const OurProcess = () => {
       </div>
 
       {/* COFFEE ROASTERY */}
-      <div className="grid lg:grid-cols-2 gap-10 bg-[#F2F0EA] py-24 lg:px-24 px-5">
+      <div className="grid lg:grid-cols-2 gap-10 bg-fantasy py-24 lg:px-24 px-5">
         <div className="flex flex-col justify-center">
           <h2 className={`${oswald.className} text-3xl font-bold`}>
             COFFEE ROASTERY
           </h2>
-          <HorizontalLine className="w-[110px] border-[#CAA782] border-b-4 my-5" />
-          <p className={`${open_sans.className} text-sm text-[#acacac]`}>
+          <HorizontalLine className="w-[110px] border-whiskey border-b-4 my-5" />
+          <p className={`${open_sans.className} text-sm text-silver-chalice`}>
             Our roastery epitomizes our coffee passion, sourcing premium beans
             globally. Expert roasters meticulously craft each batch, ensuring
             unique flavors and aromas in every cup.
           </p>
-          <ul className={`${open_sans.className} text-sm text-[#CAA782] mt-5`}>
+          <ul className={`${open_sans.className} text-sm text-whiskey mt-5`}>
             <li>
               <FaCheck className="inline me-1" /> Crafting excellence with every
               roast.
@@ -98,13 +98,13 @@ const OurProcess = () => {
           <h2 className={`${oswald.className} text-3xl font-bold`}>
             ROASTING COFFEE BEANS
           </h2>
-          <HorizontalLine className="w-[110px] border-[#CAA782] border-b-4 my-5" />
-          <p className={`${open_sans.className} text-sm text-[#acacac]`}>
+          <HorizontalLine className="w-[110px] border-whiskey border-b-4 my-5" />
+          <p className={`${open_sans.className} text-sm text-silver-chalice`}>
             Experience the essence of meticulously roasted coffee beans at
             Coffee House. Our expert roasters enhance flavor profiles with
             artisanal techniques, ensuring consistency and quality in every sip.
           </p>
-          <ul className={`${open_sans.className} text-sm text-[#CAA782] mt-5`}>
+          <ul className={`${open_sans.className} text-sm text-whiskey mt-5`}>
             <li>
               <FaCheck className="inline me-1" /> Unlocking the essence of
               perfection.
@@ -124,18 +124,18 @@ const OurProcess = () => {
       </div>
 
       {/* PACKAGING COFFEE */}
-      <div className="grid lg:grid-cols-2 gap-10 bg-[#F2F0EA] py-24 lg:px-24 px-5">
+      <div className="grid lg:grid-cols-2 gap-10 bg-fantasy py-24 lg:px-24 px-5">
         <div className="flex flex-col justify-center">
           <h2 className={`${oswald.className} text-3xl font-bold`}>
             PACKAGING COFFEE
           </h2>
-          <HorizontalLine className="w-[110px] border-[#CAA782] border-b-4 my-5" />
-          <p className={`${open_sans.className} text-sm text-[#acacac]`}>
+          <HorizontalLine className="w-[110px] border-whiskey border-b-4 my-5" />
+          <p className={`${open_sans.className} text-sm text-silver-chalice`}>
             Discover the essence of excellence in our coffee packaging.
             Meticulously crafted to seal in freshness, our eco-friendly options
             reflect our commitment to quality and sustainability.
           </p>
-          <ul className={`${open_sans.className} text-sm text-[#CAA782] mt-5`}>
+          <ul className={`${open_sans.className} text-sm text-whiskey mt-5`}>
             <li>
               <FaCheck className="inline me-1" /> Freshly roasted beans sourced
               globally.

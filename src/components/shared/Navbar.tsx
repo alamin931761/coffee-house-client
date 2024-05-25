@@ -6,14 +6,14 @@ const Navbar = () => {
   const menuItems = (
     <>
       <Link
-        className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
+        className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/"
       >
         Home
       </Link>
 
       <Link
-        className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
+        className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/our-menu"
       >
         Our Menu
@@ -21,11 +21,11 @@ const Navbar = () => {
 
       <div className="dropdown dropdown-hover lg:py-5 cursor-pointer">
         <div
-          className="transition ease-linear duration-500 hover:text-[#CAA782] outline-none"
+          className="transition ease-linear duration-500 hover:text-whiskey outline-none"
           tabIndex={0}
         >
           <Link
-            className="transition ease-linear duration-500 hover:text-[#CAA782]"
+            className="transition ease-linear duration-500 hover:text-whiskey"
             href="/reservation"
           >
             Reservation
@@ -33,20 +33,20 @@ const Navbar = () => {
         </div>
         <ul
           tabIndex={0}
-          className="lg:dropdown-content menu p-0 mx-2 lg:mx-0 lg:shadow-lg lg:bg-white lg:w-[170px] top-[62px] lg:border-t-4 lg:border-[#CAA782]"
+          className="lg:dropdown-content menu p-0 mx-2 lg:mx-0 lg:shadow-lg lg:bg-white lg:w-[170px] top-[62px] lg:border-t-4 lg:border-whiskey"
           style={{
             transitionDuration: "500ms",
             transitionTimingFunction: "linear",
           }}
         >
           <Link
-            className="mx-2 mt-2 transition ease-linear duration-500 hover:text-[#CAA782]"
+            className="mx-2 mt-2 transition ease-linear duration-500 hover:text-whiskey"
             href="/booking"
           >
             Booking Page
           </Link>
           <Link
-            className="m-2 transition ease-linear duration-500 hover:text-[#CAA782]"
+            className="m-2 transition ease-linear duration-500 hover:text-whiskey"
             href="/reservation"
           >
             Reservation
@@ -55,42 +55,42 @@ const Navbar = () => {
       </div>
 
       <Link
-        className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
+        className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/about-us"
       >
         About Us
       </Link>
 
       <Link
-        className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
+        className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/contact-us"
       >
         Contact us
       </Link>
 
       <Link
-        className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
+        className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/blog"
       >
         Blog
       </Link>
 
       <Link
-        className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
+        className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/meet-our-team"
       >
         Meet Our Team
       </Link>
 
       <Link
-        className="lg:py-5 transition ease-linear duration-500 hover:text-[#CAA782]"
+        className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/what-we-offer"
       >
         What We Offer
       </Link>
 
       <Link
-        className="lg:py-5 pr-5 transition ease-linear duration-500 hover:text-[#CAA782]"
+        className="lg:py-5 pr-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/our-process"
       >
         Our Process
@@ -106,7 +106,7 @@ const Navbar = () => {
         <div className="dropdown">
           <div
             tabIndex={0}
-            className="lg:hidden cursor-pointer px-2 text-5xl transition ease-linear duration-500 hover:text-[#CAA782] outline-none"
+            className="lg:hidden cursor-pointer px-2 text-5xl transition ease-linear duration-500 hover:text-whiskey outline-none"
           >
             <IoReorderTwoOutline />
           </div>
@@ -125,7 +125,7 @@ const Navbar = () => {
 
         <Link
           href="/"
-          className="text-xl lg:text-2xl lg:pl-4 text-nowrap transition ease-linear duration-500 hover:text-[#CAA782]"
+          className="text-xl lg:text-2xl lg:pl-4 text-nowrap transition ease-linear duration-500 hover:text-whiskey"
         >
           Coffee House
         </Link>

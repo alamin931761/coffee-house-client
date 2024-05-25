@@ -44,17 +44,17 @@ const BookingForm = () => {
               </Select>
             </div>
 
-            <FaUsers className="ms-[2px] text-5xl p-2 text-[#C7A17A] bg-[#F6F4EF]" />
+            <FaUsers className="ms-[2px] text-5xl p-2 text-whiskey bg-fantasy" />
           </div>
 
           {/* date */}
           <div className="flex w-full">
             <input
-              className={`w-full focus:outline-none bg-[#F6F4EF] text-sm placeholder-[#CAA782] focus:border focus:border-[#CAA782] ${merriweather.className} italic w-full block p-3`}
+              className={`w-full focus:outline-none bg-fantasy text-sm placeholder-whiskey focus:border focus:border-whiskey ${merriweather.className} italic w-full block p-3`}
               type="date"
               {...register("date")}
             />
-            <FaCalendarDays className="col-span-1 ms-[2px] text-5xl p-2 text-[#C7A17A] bg-[#F6F4EF]" />
+            <FaCalendarDays className="col-span-1 ms-[2px] text-5xl p-2 text-whiskey bg-fantasy" />
           </div>
 
           {/* time */}
@@ -91,7 +91,7 @@ const BookingForm = () => {
               </Select>
             </div>
 
-            <FaRegClock className="ms-[2px] text-5xl p-2 text-[#C7A17A] bg-[#F6F4EF]" />
+            <FaRegClock className="ms-[2px] text-5xl p-2 text-whiskey bg-fantasy" />
           </div>
 
           <FormSubmit className="mt-0">book a table</FormSubmit>

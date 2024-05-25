@@ -1,9 +1,7 @@
-import { merriweather, open_sans, oswald } from "@/app/fonts";
+import { merriweather, oswald } from "@/app/fonts";
 import Container from "@/components/shared/Container";
 import PageTitle from "@/components/ui/PageTitle";
 import Image from "next/image";
-import Link from "next/link";
-import { FaArrowLeft } from "react-icons/fa";
 
 type TParams = {
   blogId: string;
@@ -39,13 +37,13 @@ const SingleBlogPage = async ({ params }: { params: TParams }) => {
         />
 
         <h3
-          className={`${oswald.className} font-bold text-2xl uppercase hover:text-[#CAA782] transition ease-linear duration-500 mb-2 mt-5  w-fit`}
+          className={`${oswald.className} font-bold text-2xl uppercase hover:text-whiskey transition ease-linear duration-500 mb-2 mt-5  w-fit`}
         >
           {blog.title}
         </h3>
 
         <p
-          className={`${merriweather.className} italic text-sm text-[#CAA782] mb-5`}
+          className={`${merriweather.className} italic text-sm text-whiskey mb-5`}
         >
           by {blog.author} / {blog.category} /{" "}
           {new Date(blog.createdAt)

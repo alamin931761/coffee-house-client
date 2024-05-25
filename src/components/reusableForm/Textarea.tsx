@@ -21,7 +21,7 @@ const Textarea = ({ name, errors, register, placeholder }: TextareaProps) => {
         {...register}
         cols={30}
         rows={10}
-        className={`textarea rounded-none w-full border focus:outline-none bg-[#F6F4EF] text-sm placeholder-black focus:border focus:border-[#CAA782] ${merriweather.className} italic`}
+        className={`textarea rounded-none w-full border focus:outline-none bg-fantasy text-sm placeholder-black focus:border focus:border-whiskey ${merriweather.className} italic`}
         placeholder={placeholder}
       />
 

@@ -12,7 +12,7 @@ const OfferCard = ({ icon, title, description }: TOfferCard) => {
     <div>
       <div className="flex">
         {/* icon */}
-        <div className="text-[#C7A17A] transition ease-linear duration-500 hover:text-black">
+        <div className="text-whiskey transition ease-linear duration-500 hover:text-black">
           {icon}
         </div>
 

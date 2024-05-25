@@ -11,7 +11,7 @@ const FormSubmit = ({
   return (
     <div>
       <button
-        className={`btn btn-outline rounded-none px-10 border-none bg-[#CAA782] uppercase font-extrabold transition ease-linear duration-500 ${className} ${open_sans.className}`}
+        className={`btn btn-outline rounded-none px-10 border-none bg-whiskey uppercase font-extrabold transition ease-linear duration-500 ${className} ${open_sans.className}`}
         type="submit"
       >
         {children}

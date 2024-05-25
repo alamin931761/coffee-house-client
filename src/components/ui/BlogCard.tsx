@@ -16,15 +16,15 @@ const BlogCard = ({
   return (
     <div className="">
       <Image src={imageURL} alt="blog image" width={1300} height={840} />
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-2">
         <h3
-          className={`${oswald.className} font-bold text-2xl uppercase hover:text-[#CAA782] transition ease-linear duration-500 mb-2 w-fit`}
+          className={`${oswald.className} font-bold text-2xl uppercase hover:text-whiskey transition ease-linear duration-500 mb-2 w-fit`}
         >
           {title}
         </h3>
 
         <p
-          className={`${merriweather.className} italic text-sm text-[#CAA782] mb-5`}
+          className={`${merriweather.className} italic text-sm text-whiskey mb-5`}
         >
           by {author} / {category} /{" "}
           {new Date(createdAt).toLocaleDateString("en-US").split("/").join("-")}
@@ -34,7 +34,7 @@ const BlogCard = ({
           {description.slice(0, 300)}...{" "}
           <Link
             href={`blog/${_id}`}
-            className={`lowercase text-[#CAA782] hover:text-black transition ease-linear duration-500 font-bold ${open_sans.className} text-xs mt-3`}
+            className={`lowercase text-whiskey hover:text-black transition ease-linear duration-500 font-bold ${open_sans.className} text-xs mt-3`}
           >
             read more <FaArrowRightLong className="inline" />
           </Link>

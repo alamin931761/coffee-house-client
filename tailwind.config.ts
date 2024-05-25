@@ -7,7 +7,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        whiskey: "#C7A17A",
+        fantasy: "#F6F4EF",
+        "silver-chalice": "#acacac",
+      },
+    },
   },
   plugins: [require("daisyui")],
 };

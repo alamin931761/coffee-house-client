@@ -14,12 +14,12 @@ const Menu = ({ name, description, price, newFlavour }: TMenuItem) => {
       </div>
 
       <div className="flex justify-between">
-        <p className={`text-[#C7A17A] ${open_sans.className} text-sm`}>
+        <p className={`text-whiskey ${open_sans.className} text-sm`}>
           {description}
         </p>
         {newFlavour ? (
           <p
-            className={`uppercase text-sm ${merriweather.className} italic bg-[#C7A17A] px-3 py-[2px]`}
+            className={`uppercase text-sm ${merriweather.className} italic bg-whiskey px-3 py-[2px]`}
           >
             new
           </p>

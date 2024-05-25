@@ -1,9 +1,5 @@
 "use client";
 
-import image1 from "../../../assets/images/carousel/carousel-4.jpg";
-import image2 from "../../../assets/images/carousel/carousel-5.jpg";
-import image3 from "../../../assets/images/carousel/carousel-6.jpg";
-
 import "./Carousel.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -13,7 +9,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination, Autoplay, EffectFade } from "swiper/modules";
+import { Autoplay, EffectFade } from "swiper/modules";
 
 import Image from "next/image";
 
@@ -30,28 +26,37 @@ const CoffeeExperienceCarousel = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination, Autoplay, EffectFade]}
+        modules={[Autoplay, EffectFade]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <Image src={image1} height={420} width={650} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
           <Image
-            src={image2}
             layout="intrinsic"
+            src="https://i.ibb.co/GJQj64N/expand-your-mind.jpg"
             height={420}
             width={650}
             alt=""
+            className="h-full w-full"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={image3}
+            src="https://i.ibb.co/4Khn5f0/full-taste.jpg"
             layout="intrinsic"
             height={420}
             width={650}
             alt=""
+            className="h-full w-full"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="https://i.ibb.co/qnP095P/elevate-your-expectations.jpg"
+            layout="intrinsic"
+            height={420}
+            width={650}
+            alt=""
+            className="h-full w-full"
           />
         </SwiperSlide>
       </Swiper>

@@ -20,7 +20,7 @@ const TeamCard = ({
           {name}
         </h4>
         <p
-          className={`text-[#C7A17A] text-sm italic font-light ${merriweather.className} mt-2 mb-4`}
+          className={`text-whiskey text-sm italic font-light ${merriweather.className} mt-2 mb-4`}
         >
           {position}, Coffee House
         </p>
@@ -28,13 +28,13 @@ const TeamCard = ({
 
         <div className="mt-4 flex justify-center gap-x-5">
           <a href={facebookURL}>
-            <FaFacebookF className="text-xl text-[#CAA782] hover:text-black transition ease-linear duration-500" />
+            <FaFacebookF className="text-xl text-whiskey hover:text-black transition ease-linear duration-500" />
           </a>
           <a href={twitterURL}>
-            <FaTwitter className="text-xl text-[#CAA782] hover:text-black transition ease-linear duration-500" />
+            <FaTwitter className="text-xl text-whiskey hover:text-black transition ease-linear duration-500" />
           </a>
           <a href={instagramURL}>
-            <FaInstagram className="text-xl text-[#CAA782] hover:text-black transition ease-linear duration-500" />
+            <FaInstagram className="text-xl text-whiskey hover:text-black transition ease-linear duration-500" />
           </a>
         </div>
       </div>

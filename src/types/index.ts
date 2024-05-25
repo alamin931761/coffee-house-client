@@ -26,3 +26,12 @@ export type TBlog = {
   description: string;
   createdAt: string;
 };
+
+export type TTestimonial = {
+  _id: string;
+  imageURL: string;
+  title: string;
+  name: string;
+  review: string;
+  createdAt: string;
+};
