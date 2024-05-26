@@ -5,15 +5,23 @@ import Typewriter from "typewriter-effect";
 
 const OurPlantations = () => {
   return (
+    // Background image and styling
     <div className="bg-[url('https://i.ibb.co/zG0VLKS/plantations.jpg')] bg-no-repeat bg-cover bg-top bg-local h-[500px] text-white ">
       <div className="h-full flex flex-col justify-center items-center bg-black bg-opacity-50">
+        {/* Title */}
         <h2 className={`text-sm ${oswald.className} mb-4`}>OUR PLANTATIONS</h2>
 
-        <p className={`text-2xl ${merriweather.className} font-bold`}>
+        {/* Main headline */}
+        <p
+          className={`text-xl sm:text-2xl ${merriweather.className} font-bold text-center`}
+        >
           We Make the Best Coffee Blends
         </p>
 
-        <div className={`flex text-2xl ${merriweather.className} font-bold`}>
+        {/* Subheadline with dynamic typing effect */}
+        <div
+          className={`flex text-xl sm:text-2xl ${merriweather.className} font-bold`}
+        >
           <p className="me-1">Our coffee is </p>
           <Typewriter
             options={{
@@ -26,7 +34,10 @@ const OurPlantations = () => {
           />
         </div>
 
-        <p className={`mt-4 text-base ${open_sans.className} italic`}>
+        {/* Additional information */}
+        <p
+          className={`mt-4 text-sm sm:text-base ${open_sans.className} italic`}
+        >
           Good morning begins with aromatic coffee.
         </p>
       </div>

@@ -9,6 +9,14 @@ import { FaRegHandshake } from "react-icons/fa6";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
 import { SiGotomeeting } from "react-icons/si";
 import PageTitle from "@/components/ui/PageTitle";
+import { Metadata } from "next";
+
+// Metadata for the What We Offer page
+export const metadata: Metadata = {
+  title: "What We Offer - Coffee House",
+  description:
+    "Discover the wide range of offerings at Coffee House. From free WiFi to special offers, events, premium coffee, cozy ambiance, and health-conscious options, we provide everything you need for a delightful coffee experience. Explore our menu of specialty drinks, relax in our inviting atmosphere, and enjoy the best of what Coffee House has to offer.",
+};
 
 const WhatWeOfferPage = () => {
   return (

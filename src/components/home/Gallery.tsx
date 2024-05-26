@@ -7,6 +7,7 @@ import Image from "next/image";
 const Gallery = () => {
   return (
     <div className="cursor-pointer">
+      {/* PhotoProvider for image gallery */}
       <PhotoProvider
         speed={() => 800}
         easing={(type) =>
@@ -15,6 +16,7 @@ const Gallery = () => {
             : "cubic-bezier(0.34, 1.56, 0.64, 1)"
         }
       >
+        {/* Grid layout for images */}
         <div className="grid grid-rows-3 lg:grid-rows-1 grid-flow-col">
           {/* image 1 */}
           <div className="col-span-2 lg:row-span-2">
@@ -24,6 +26,7 @@ const Gallery = () => {
                 height={1000}
                 width={1000}
                 alt=""
+                className="transition ease-linear duration-500 hover:grayscale"
               />
             </PhotoView>
           </div>
@@ -36,6 +39,7 @@ const Gallery = () => {
                 height={500}
                 width={500}
                 alt=""
+                className="transition ease-linear duration-500 hover:grayscale"
               />
             </PhotoView>
 
@@ -45,6 +49,7 @@ const Gallery = () => {
                 height={500}
                 width={500}
                 alt=""
+                className="transition ease-linear duration-500 hover:grayscale"
               />
             </PhotoView>
           </div>
@@ -57,6 +62,7 @@ const Gallery = () => {
                 height={500}
                 width={500}
                 alt=""
+                className="transition ease-linear duration-500 hover:grayscale"
               />
             </PhotoView>
 
@@ -66,6 +72,7 @@ const Gallery = () => {
                 height={500}
                 width={500}
                 alt=""
+                className="transition ease-linear duration-500 hover:grayscale"
               />
             </PhotoView>
           </div>
@@ -78,6 +85,7 @@ const Gallery = () => {
                 height={500}
                 width={500}
                 alt=""
+                className="transition ease-linear duration-500 hover:grayscale"
               />
             </PhotoView>
 
@@ -87,6 +95,7 @@ const Gallery = () => {
                 height={500}
                 width={500}
                 alt=""
+                className="transition ease-linear duration-500 hover:grayscale"
               />
             </PhotoView>
           </div>
@@ -99,6 +108,7 @@ const Gallery = () => {
                 height={1000}
                 width={500}
                 alt=""
+                className="transition ease-linear duration-500 hover:grayscale"
               />
             </PhotoView>
           </div>

@@ -1,12 +1,14 @@
 import { merriweather } from "@/app/fonts";
 import { UseFormRegisterReturn } from "react-hook-form";
 
+// Type for error messages
 type Errors = {
   [key: string]: {
     message?: string;
   };
 };
 
+// Props type for the Textarea component
 type TextareaProps = {
   name: string;
   errors: Errors;
@@ -25,6 +27,7 @@ const Textarea = ({ name, errors, register, placeholder }: TextareaProps) => {
         placeholder={placeholder}
       />
 
+      {/* Display error message if exists */}
       {errors[name] && (
         <p className="text-xs text-red-500 ml-1">{errors[name].message}</p>
       )}

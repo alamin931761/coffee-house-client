@@ -2,6 +2,7 @@ import { merriweather } from "@/app/fonts";
 import { ReactNode } from "react";
 import { UseFormRegisterReturn } from "react-hook-form";
 
+// Props type for the Select component
 type SelectProps = {
   register: UseFormRegisterReturn;
   children: ReactNode;

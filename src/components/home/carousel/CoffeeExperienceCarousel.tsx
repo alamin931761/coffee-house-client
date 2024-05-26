@@ -29,6 +29,7 @@ const CoffeeExperienceCarousel = () => {
         modules={[Autoplay, EffectFade]}
         className="mySwiper"
       >
+        {/* image 1 */}
         <SwiperSlide>
           <Image
             layout="intrinsic"
@@ -39,6 +40,8 @@ const CoffeeExperienceCarousel = () => {
             className="h-full w-full"
           />
         </SwiperSlide>
+
+        {/* image - 2 */}
         <SwiperSlide>
           <Image
             src="https://i.ibb.co/4Khn5f0/full-taste.jpg"
@@ -49,6 +52,8 @@ const CoffeeExperienceCarousel = () => {
             className="h-full w-full"
           />
         </SwiperSlide>
+
+        {/* image - 3 */}
         <SwiperSlide>
           <Image
             src="https://i.ibb.co/qnP095P/elevate-your-expectations.jpg"

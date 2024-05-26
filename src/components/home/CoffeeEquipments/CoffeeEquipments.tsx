@@ -10,7 +10,9 @@ const CoffeeEquipments = () => {
   return (
     <Container>
       <div className="flex justify-center">
+        {/* Grid layout for displaying coffee equipment */}
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm: grid-cols-1 gap-10">
+          {/* Coffee maker */}
           <CoffeeEquipment
             image={coffeeMaker}
             title="COFFEEMAKER"
@@ -18,18 +20,21 @@ const CoffeeEquipments = () => {
         at Coffee House."
           />
 
+          {/* Coffee grinder */}
           <CoffeeEquipment
             image={coffeeGrinder}
             title="COFFEE GRINDER"
             details="Elevate your coffee experience with precision-ground beans using our premium coffee grinders at Coffee House."
           />
 
+          {/* Coffee cups */}
           <CoffeeEquipment
             image={coffeeCups}
             title="COFFEE CUPS"
             details="Sip in style with our collection of chic coffee cups, perfect for elevating your daily brew at Coffee House."
           />
 
+          {/* Espresso machine */}
           <CoffeeEquipment
             image={expressoMachine}
             title="ESPRESSO MACHINE"
@@ -38,6 +43,7 @@ const CoffeeEquipments = () => {
         </div>
       </div>
 
+      {/* Coffee experience component */}
       <div className="mt-10">
         <CoffeeExperience />
       </div>

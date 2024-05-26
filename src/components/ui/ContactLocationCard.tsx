@@ -21,10 +21,14 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
 
         {/* address */}
         <div className="ms-2">
-          <h6 className={`uppercase ${oswald.className} text-base font-bold`}>
+          <h6
+            className={`uppercase ${oswald.className} text-sm sm:text-base font-bold`}
+          >
             address
           </h6>
-          <p className={`${open_sans.className} text-sm text-silver-chalice`}>
+          <p
+            className={`${open_sans.className} sm:text-sm text-xs text-silver-chalice`}
+          >
             {address}
           </p>
         </div>
@@ -35,14 +39,16 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
         {/* icon */}
         <SlPhone className="inline mb-2 text-whiskey text-2xl" />
 
-        {/* address */}
+        {/* phone */}
         <div className="ms-2">
-          <h6 className={`uppercase ${oswald.className} text-base font-bold`}>
+          <h6
+            className={`uppercase ${oswald.className} text-sm sm:text-base font-bold`}
+          >
             phone
           </h6>
           <a
             href={`tel:${phone}`}
-            className={`${open_sans.className} text-sm text-silver-chalice`}
+            className={`${open_sans.className} sm:text-sm text-xs text-silver-chalice`}
           >
             {phone}
           </a>
@@ -54,14 +60,16 @@ const ContactLocationCard = ({ address, phone, email }: TContactLocation) => {
         {/* icon */}
         <AiOutlineMail className="inline text-whiskey text-2xl" />
 
-        {/* address */}
+        {/* email */}
         <div className="ms-2">
-          <h6 className={`uppercase ${oswald.className} text-base font-bold`}>
+          <h6
+            className={`uppercase ${oswald.className} text-sm sm:text-base font-bold`}
+          >
             email
           </h6>
           <a
             href={`mailto:${email}`}
-            className={`${open_sans.className} text-sm text-silver-chalice`}
+            className={`${open_sans.className} sm:text-sm text-xs text-silver-chalice`}
           >
             {email}
           </a>

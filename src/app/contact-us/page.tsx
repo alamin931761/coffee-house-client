@@ -1,28 +1,42 @@
 import Container from "@/components/shared/Container";
 import ContactLocationCard from "@/components/ui/ContactLocationCard";
-import ContactUsForm from "@/components/ui/ContactUsForm";
 import PageTitle from "@/components/ui/PageTitle";
 import { open_sans, oswald } from "../fonts";
 import HorizontalLine from "@/components/ui/HorizontalLine";
+import ContactUsForm from "@/components/ui/Form/ContactUsForm";
+import { Metadata } from "next";
+
+// Metadata for the Contact Us Page
+export const metadata: Metadata = {
+  title: "Contact Us - Coffee House",
+  description:
+    "Connect with Coffee House. Whether you have inquiries, feedback, or just want to share your thoughts, we're here to listen. Fill out the form or visit one of our locations to experience the warmth of our café and the quality of our brews.",
+};
 
 const ContactUsPage = () => {
   return (
     <div>
+      {/* Page title */}
       <PageTitle title="contact us" />
+
       <Container>
         <div className="grid lg:grid-cols-2 gap-10">
-          {/* write us */}
+          {/* Write Us Section */}
           <div>
             <div>
+              {/* Section title */}
               <h2
-                className={`uppercase text-4xl ${oswald.className} font-bold`}
+                className={`uppercase text-xl sm:text-2xl md:text-3xl lg:text-4xl ${oswald.className} font-bold`}
               >
                 write us
               </h2>
-              <HorizontalLine className="w-[120px] border-b-4 border-whiskey my-5" />
+
+              {/* Horizontal line */}
+              <HorizontalLine className="w-[60px] sm:w-[80px] lg:w-[120px] border-b-4 border-whiskey mt-5 mb-10" />
             </div>
 
             <div className={`${open_sans.className} text-sm mb-10`}>
+              {/* Description */}
               <p>
                 We&apos;d love to hear from you! Whether you have questions, or
                 feedback, or just want to share your thoughts, please don&apos;t
@@ -37,21 +51,25 @@ const ContactUsPage = () => {
               <p>Thank you for being a part of the Coffee House community!</p>
             </div>
 
-            {/* form */}
+            {/* Contact Us form */}
             <ContactUsForm />
           </div>
 
-          {/* locations */}
+          {/* Locations Section */}
           <div>
             <div>
+              {/* Section title */}
               <h2
-                className={`uppercase text-4xl ${oswald.className} font-bold`}
+                className={`uppercase text-xl sm:text-2xl md:text-3xl lg:text-4xl ${oswald.className} font-bold`}
               >
                 locations
               </h2>
-              <HorizontalLine className="w-[120px] border-b-4 border-whiskey my-5" />
+
+              {/* Horizontal line */}
+              <HorizontalLine className="w-[70px] sm:w-[90px] lg:w-[120px] border-b-4 border-whiskey my-5" />
             </div>
 
+            {/* Description */}
             <p className={`${open_sans.className} text-sm mb-10`}>
               Discover Your Nearest Coffee House! We have multiple locations to
               serve you, each offering a cozy atmosphere, friendly baristas, and
@@ -63,6 +81,7 @@ const ContactUsPage = () => {
               nearest location and join our coffee-loving community!
             </p>
 
+            {/* Grid layout for contact location cards */}
             <div className="grid grid-cols-2">
               <div>
                 <ContactLocationCard

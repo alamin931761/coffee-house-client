@@ -13,9 +13,12 @@ const FavouriteCoffeeFlavours = ({
   return (
     <div className="bg-fantasy">
       <Container>
+        {/* Section title */}
         <SectionTitle sectionTitle="favourite coffee flavours." />
 
+        {/* Grid layout for displaying favourite coffee flavours */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-5">
+          {/* Mapping through favourite coffee flavours data */}
           {favouriteCoffeeFlavoursData.map((data: TMenuItem) => (
             <Menu
               key={data._id}
@@ -28,6 +31,7 @@ const FavouriteCoffeeFlavours = ({
           ))}
         </div>
 
+        {/* Button to view full menu */}
         <div className="flex justify-center">
           <Link
             href="/our-menu"

@@ -19,7 +19,9 @@ const OfferCard = ({ icon, title, description }: TOfferCard) => {
         {/* title and description */}
         <div className="ms-2 mt-3">
           {/* title */}
-          <h6 className={`uppercase ${oswald.className} text-lg font-bold`}>
+          <h6
+            className={`uppercase ${oswald.className} text-base sm:text-lg font-bold`}
+          >
             {title}
           </h6>
           {/* description */}

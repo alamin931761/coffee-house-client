@@ -8,7 +8,9 @@ type TParams = {
 };
 
 const SingleBlogPage = async ({ params }: { params: TParams }) => {
-  const response = await fetch(`http://localhost:5000/blog/${params.blogId}`);
+  const response = await fetch(
+    `https://coffee-house-server-six.vercel.app/blogs/${params.blogId}`
+  );
   const blog = await response.json();
 
   const formattedDescription = blog?.description
@@ -22,7 +24,6 @@ const SingleBlogPage = async ({ params }: { params: TParams }) => {
       </div>
     ));
 
-  //   // params.blogId
   return (
     <div>
       <PageTitle title={blog.title} />
@@ -37,7 +38,7 @@ const SingleBlogPage = async ({ params }: { params: TParams }) => {
         />
 
         <h3
-          className={`${oswald.className} font-bold text-2xl uppercase hover:text-whiskey transition ease-linear duration-500 mb-2 mt-5  w-fit`}
+          className={`${oswald.className} font-bold text-xl sm:text-2xl uppercase hover:text-whiskey transition ease-linear duration-500 mb-2 mt-5 w-fit`}
         >
           {blog.title}
         </h3>

@@ -14,15 +14,25 @@ const BlogCard = ({
   createdAt,
 }: TBlog) => {
   return (
-    <div className="">
-      <Image src={imageURL} alt="blog image" width={1300} height={840} />
+    <div>
+      {/* Blog image */}
+      <Image
+        src={imageURL}
+        alt="blog image"
+        width={1300}
+        height={840}
+        className="transition ease-linear duration-500 hover:grayscale"
+      />
+
       <div className="flex flex-col mt-2">
+        {/* Blog title */}
         <h3
-          className={`${oswald.className} font-bold text-2xl uppercase hover:text-whiskey transition ease-linear duration-500 mb-2 w-fit`}
+          className={`${oswald.className} font-bold text-lg sm:text-2xl uppercase hover:text-whiskey transition ease-linear duration-500 mb-2 w-fit`}
         >
           {title}
         </h3>
 
+        {/* author, category and date */}
         <p
           className={`${merriweather.className} italic text-sm text-whiskey mb-5`}
         >
@@ -30,8 +40,9 @@ const BlogCard = ({
           {new Date(createdAt).toLocaleDateString("en-US").split("/").join("-")}
         </p>
 
+        {/* Blog description */}
         <p>
-          {description.slice(0, 300)}...{" "}
+          {description.slice(0, 300)}... {/* Read more link */}
           <Link
             href={`blog/${_id}`}
             className={`lowercase text-whiskey hover:text-black transition ease-linear duration-500 font-bold ${open_sans.className} text-xs mt-3`}

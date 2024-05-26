@@ -24,6 +24,7 @@ import { CiCoffeeCup } from "react-icons/ci";
 import { motion } from "framer-motion";
 import { Variants } from "framer-motion";
 import { merriweather, open_sans, oswald } from "@/app/fonts";
+import Link from "next/link";
 
 // animation
 const intro: Variants = {
@@ -85,11 +86,13 @@ const Carousel = () => {
             }}
           >
             <motion.div variants={introChildren}>
+              {/* icon */}
               <PiCoffeeLight
                 className={`text-[50px] sm:text-[70px] md:text-[100px] lg:text-[150px] ${oswald.className} font-bold`}
               />
             </motion.div>
 
+            {/* title */}
             <motion.h1
               variants={introChildren}
               className={`text-2xl sm:text-4xl md:text-6xl lg:text-7xl uppercase my-5 ${oswald.className} font-bold`}
@@ -97,6 +100,7 @@ const Carousel = () => {
               importance of coffee
             </motion.h1>
 
+            {/* description */}
             <motion.p
               variants={introChildren}
               className={`text-base sm:text-lg md:text-xl lg:text-2xl text-center ${merriweather.className} italic`}
@@ -106,13 +110,16 @@ const Carousel = () => {
               Discover the True Importance of Coffee at Our Shop.
             </motion.p>
 
+            {/* read more button */}
             <motion.button
               variants={introChildren}
               className={`uppercase my-5 btn btn-outline text-white hover:text-black hover:bg-white border-2 hover:border-white hover:border-2 transition ease-linear duration-500 rounded-none ${open_sans.className} font-extrabold`}
             >
-              Read more
+              <Link href="/blogs">Read more</Link>
             </motion.button>
           </motion.div>
+
+          {/* image */}
           <Image src={image1} height={600} width={1200} alt="" />
         </SwiperSlide>
 
@@ -130,17 +137,21 @@ const Carousel = () => {
             }}
           >
             <motion.div variants={introChildren}>
+              {/* icon */}
               <CiCoffeeCup
                 className={`text-[50px] sm:text-[70px] md:text-[100px] lg:text-[150px] ${oswald.className} font-bold`}
               />
             </motion.div>
 
+            {/* title */}
             <motion.h1
               variants={introChildren}
               className={`text-2xl sm:text-4xl md:text-6xl lg:text-7xl uppercase my-5 ${oswald.className} font-bold`}
             >
               The home of coffee
             </motion.h1>
+
+            {/* description */}
             <motion.p
               variants={introChildren}
               className={`text-base sm:text-lg md:text-xl lg:text-2xl text-center ${merriweather.className} italic`}
@@ -150,13 +161,16 @@ const Carousel = () => {
               Welcome to the true home of coffee.
             </motion.p>
 
+            {/* read more button */}
             <motion.button
               variants={introChildren}
               className={`uppercase my-5 btn btn-outline text-white hover:text-black hover:bg-white border-2 hover:border-white hover:border-2 transition ease-linear duration-500 rounded-none ${open_sans.className} font-extrabold`}
             >
-              Read more
+              <Link href="/blogs">Read more</Link>
             </motion.button>
           </motion.div>
+
+          {/* image */}
           <Image src={image2} height={600} width={1200} alt="" />
         </SwiperSlide>
 
@@ -174,11 +188,13 @@ const Carousel = () => {
             }}
           >
             <motion.div variants={introChildren}>
+              {/* icon */}
               <GiCoffeeBeans
                 className={`text-[50px] sm:text-[70px] md:text-[100px] lg:text-[150px] ${oswald.className} font-bold`}
               />
             </motion.div>
 
+            {/* title */}
             <motion.h1
               variants={introChildren}
               className={`text-2xl sm:text-4xl md:text-6xl lg:text-7xl uppercase my-5 ${oswald.className} font-bold`}
@@ -186,6 +202,7 @@ const Carousel = () => {
               Special coffee beans
             </motion.h1>
 
+            {/* description */}
             <motion.p
               variants={introChildren}
               className={`text-base sm:text-lg md:text-xl lg:text-2xl text-center ${merriweather.className} italic`}
@@ -195,13 +212,16 @@ const Carousel = () => {
               crafted to perfection for your ultimate coffee experience.
             </motion.p>
 
+            {/* read more button */}
             <motion.button
               variants={introChildren}
               className={`uppercase my-5 btn btn-outline text-white hover:text-black hover:bg-white border-2 hover:border-white hover:border-2 transition ease-linear duration-500 rounded-none ${open_sans.className} font-extrabold`}
             >
-              Read more
+              <Link href="/blogs">Read more</Link>
             </motion.button>
           </motion.div>
+
+          {/* image */}
           <Image src={image3} height={600} width={1200} alt="" />
         </SwiperSlide>
       </Swiper>

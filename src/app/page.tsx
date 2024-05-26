@@ -5,21 +5,30 @@ import OurPlantations from "@/components/home/OurPlantations";
 import Carousel from "@/components/home/carousel/Carousel";
 import Container from "@/components/shared/Container";
 import BlogCard from "@/components/ui/BlogCard";
-import BookingForm from "@/components/ui/BookingForm";
-import CoffeeExperience from "@/components/ui/CoffeeExperience";
+import BookingForm from "@/components/ui/Form/BookingForm";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { TBlog } from "@/types";
+import { Metadata } from "next";
+
+// Metadata for the Home page
+export const metadata: Metadata = {
+  title: "Home - Coffee House",
+  description:
+    "Welcome to Coffee House - Your go-to place for all things coffee!",
+};
 
 const HomePage = async () => {
-  // get favourite coffee flavours data
+  // Fetch favourite coffee flavours data
   const favouriteCoffeeFlavoursResponse = await fetch(
-    "http://localhost:5000/menu?favoriteFlavor=true"
+    "https://coffee-house-server-six.vercel.app/menu?favoriteFlavor=true"
   );
   const favouriteCoffeeFlavoursData =
     await favouriteCoffeeFlavoursResponse.json();
 
-  // get blogs data
-  const blogsResponse = await fetch(`http://localhost:5000/blog`);
+  // Fetch blogs data
+  const blogsResponse = await fetch(
+    `https://coffee-house-server-six.vercel.app/blogs`
+  );
   const blogs = await blogsResponse.json();
 
   return (
@@ -28,7 +37,7 @@ const HomePage = async () => {
       {/* COFFEE BUILD YOUR BASE section */}
       <Container>
         <SectionTitle sectionTitle="coffee build your base." />
-        <div className="flex justify-center w-full mt-5 mb-10">
+        <div className="flex justify-center w-full mt-5 mb-20">
           <div className="w-full">
             <BookingForm />
           </div>
