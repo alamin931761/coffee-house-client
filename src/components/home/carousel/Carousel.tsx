@@ -115,7 +115,7 @@ const Carousel = () => {
               variants={introChildren}
               className={`uppercase my-5 btn btn-outline text-white hover:text-black hover:bg-white border-2 hover:border-white hover:border-2 transition ease-linear duration-500 rounded-none ${open_sans.className} font-extrabold`}
             >
-              <Link href="/blogs">Read more</Link>
+              <Link href="/blog">Read more</Link>
             </motion.button>
           </motion.div>
 
@@ -166,7 +166,7 @@ const Carousel = () => {
               variants={introChildren}
               className={`uppercase my-5 btn btn-outline text-white hover:text-black hover:bg-white border-2 hover:border-white hover:border-2 transition ease-linear duration-500 rounded-none ${open_sans.className} font-extrabold`}
             >
-              <Link href="/blogs">Read more</Link>
+              <Link href="/blog">Read more</Link>
             </motion.button>
           </motion.div>
 
@@ -217,7 +217,7 @@ const Carousel = () => {
               variants={introChildren}
               className={`uppercase my-5 btn btn-outline text-white hover:text-black hover:bg-white border-2 hover:border-white hover:border-2 transition ease-linear duration-500 rounded-none ${open_sans.className} font-extrabold`}
             >
-              <Link href="/blogs">Read more</Link>
+              <Link href="/blog">Read more</Link>
             </motion.button>
           </motion.div>
 

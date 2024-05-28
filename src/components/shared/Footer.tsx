@@ -17,7 +17,7 @@ const Footer = () => {
         className={`${oswald.className} text-white bg-[url('https://i.ibb.co/TR5Lq9B/footer-background-image.jpg')] bg-no-repeat bg-cover bg-top bg-fixed`}
       >
         {/* Grid layout for footer sections */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 px-16 py-20 bg-black bg-opacity-80">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 px-5 lg:px-16 py-5 lg:py-16 bg-black bg-opacity-80">
           {/* Opening hours section */}
           <div className="uppercase w-[220px]">
             {/* title */}

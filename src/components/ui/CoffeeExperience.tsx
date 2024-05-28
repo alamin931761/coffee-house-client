@@ -3,10 +3,10 @@ import CoffeeExperienceCarousel from "../home/carousel/CoffeeExperienceCarousel"
 
 const CoffeeExperience = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 text-white relative">
+    <div className="text-white grid grid-cols-1 lg:grid-cols-2">
       {/* Left section with background image */}
-      <div className="bg-[url('https://i.ibb.co/c3RMH8M/coffee-experience-background-image.jpg')] bg-no-repeat bg-cover bg-right-bottom bg-local h-[400px]">
-        <div className="px-10 my-16 h-full">
+      <div className="bg-[url('https://i.ibb.co/c3RMH8M/coffee-experience-background-image.jpg')] bg-no-repeat bg-cover bg-right-bottom bg-local h-[420px]">
+        <div className="lg:mx-10 p-5 lg:my-16 h-full">
           {/* Title */}
           <h4
             className={`${oswald.className} uppercase text-2xl sm:text-3xl lg:text-4xl font-bold`}
@@ -26,7 +26,7 @@ const CoffeeExperience = () => {
       </div>
 
       {/* Right section with CoffeeExperienceCarousel */}
-      <div className="lg:my-2">
+      <div className="h-[420px] lg:h-[404px] lg:my-2">
         <CoffeeExperienceCarousel />
       </div>
     </div>

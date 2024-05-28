@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Coffee House](https://coffee-house-client-gilt.vercel.app/)
 
-## Getting Started
+Welcome to the Story Keeper. This repository contains the client-side code for the website.
 
-First, run the development server:
+## Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- This is a website dedicated to all things coffee-related, offering a seamless platform for users to book tables, reserve their spots at the coffee house, and easily reach out for any inquiries or special requests.
+- Implemented responsive design principles to ensure optimal user experience across various devices and screen sizes, enhancing the accessibility and usability of the website.
+- Combining server-side rendering and client-side rendering ensures a smooth user experience and efficient website performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next js
+- Tailwind CSS
+- Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+##
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Live site: [Coffee House](https://coffee-house-client-gilt.vercel.app/)
