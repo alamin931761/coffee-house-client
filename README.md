@@ -1,6 +1,6 @@
 # [Coffee House](https://coffee-house-client-gilt.vercel.app/)
 
-Welcome to the Story Keeper. This repository contains the client-side code for the website.
+Welcome to the Coffee House. This repository contains the client-side code for the website.
 
 ## Features:
 
