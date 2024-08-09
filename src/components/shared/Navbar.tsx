@@ -14,6 +14,7 @@ const Navbar = () => {
     <>
       {/* Home */}
       <Link
+        onClick={() => setIsDropdownOpen(false)}
         className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/"
       >
@@ -22,6 +23,7 @@ const Navbar = () => {
 
       {/* Our Menu */}
       <Link
+        onClick={() => setIsDropdownOpen(false)}
         className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/our-menu"
       >
@@ -36,6 +38,7 @@ const Navbar = () => {
         >
           {/* reservation */}
           <Link
+            onClick={() => setIsDropdownOpen(false)}
             className="transition ease-linear duration-500 hover:text-whiskey"
             href="/reservation"
           >
@@ -52,6 +55,7 @@ const Navbar = () => {
         >
           {/* booking page */}
           <Link
+            onClick={() => setIsDropdownOpen(false)}
             className="mx-2 mt-2 transition ease-linear duration-500 hover:text-whiskey"
             href="/booking"
           >
@@ -60,6 +64,7 @@ const Navbar = () => {
 
           {/* reservation */}
           <Link
+            onClick={() => setIsDropdownOpen(false)}
             className="m-2 transition ease-linear duration-500 hover:text-whiskey"
             href="/reservation"
           >
@@ -70,6 +75,7 @@ const Navbar = () => {
 
       {/* About Us */}
       <Link
+        onClick={() => setIsDropdownOpen(false)}
         className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/about-us"
       >
@@ -78,6 +84,7 @@ const Navbar = () => {
 
       {/* Contact Us */}
       <Link
+        onClick={() => setIsDropdownOpen(false)}
         className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/contact-us"
       >
@@ -86,6 +93,7 @@ const Navbar = () => {
 
       {/* blog */}
       <Link
+        onClick={() => setIsDropdownOpen(false)}
         className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/blog"
       >
@@ -94,6 +102,7 @@ const Navbar = () => {
 
       {/* Meet Our Team */}
       <Link
+        onClick={() => setIsDropdownOpen(false)}
         className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/meet-our-team"
       >
@@ -102,6 +111,7 @@ const Navbar = () => {
 
       {/* What We Offer */}
       <Link
+        onClick={() => setIsDropdownOpen(false)}
         className="lg:py-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/what-we-offer"
       >
@@ -110,6 +120,7 @@ const Navbar = () => {
 
       {/* Our Process */}
       <Link
+        onClick={() => setIsDropdownOpen(false)}
         className="lg:py-5 pr-5 transition ease-linear duration-500 hover:text-whiskey"
         href="/our-process"
       >
