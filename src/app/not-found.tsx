@@ -12,11 +12,11 @@ export const metadata = {
 
 const NotFoundPage = () => {
   return (
-    <div className="h-full">
+    <div className="h-full flex flex-col justify-center items-center">
       <Image src={image} height={840} width={1300} alt="404" />
 
       {/* Back to Home link */}
-      <div className="h-full flex justify-center py-10">
+      <div className="h-full py-10">
         <Link
           href="/"
           className={`btn btn-outline rounded-none px-10 border-none bg-whiskey uppercase font-extrabold transition ease-linear duration-500 ${open_sans.className}>Back to home`}

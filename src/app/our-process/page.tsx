@@ -21,7 +21,7 @@ const OurProcess = () => {
       <div className="grid lg:grid-cols-2 gap-10 py-24 lg:px-24 px-5">
         {/* Image */}
         <Image
-          src="https://i.ibb.co/JFVSwj3/process-image-1.jpg"
+          src="https://i.postimg.cc/Y0z9trfD/process-image-1.jpg"
           alt="process image"
           width={800}
           height={494}
@@ -106,7 +106,7 @@ const OurProcess = () => {
 
         {/* Image */}
         <Image
-          src="https://i.ibb.co/chrR1R1/process-image-2.jpg"
+          src="https://i.postimg.cc/vB9TSL1s/process-image-2.jpg"
           alt="process image"
           width={800}
           height={494}
@@ -118,7 +118,7 @@ const OurProcess = () => {
       <div className="grid lg:grid-cols-2 gap-10 py-24 lg:px-24 px-5">
         {/* Image */}
         <Image
-          src="https://i.ibb.co/JBQ2tVm/process-image-3.jpg"
+          src="https://i.postimg.cc/2yDypbvB/process-image-3.jpg"
           alt="process image"
           width={800}
           height={494}
@@ -204,7 +204,7 @@ const OurProcess = () => {
 
         {/* Image */}
         <Image
-          src="https://i.ibb.co/brTL8X5/process-image-4.jpg"
+          src="https://i.postimg.cc/1zb4HY3B/process-image-4.jpg"
           alt="process image"
           width={800}
           height={494}

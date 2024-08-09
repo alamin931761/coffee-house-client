@@ -14,7 +14,7 @@ const Footer = () => {
     <footer>
       {/* Footer background */}
       <div
-        className={`${oswald.className} text-white bg-[url('https://i.ibb.co/TR5Lq9B/footer-background-image.jpg')] bg-no-repeat bg-cover bg-top bg-fixed`}
+        className={`${oswald.className} text-white bg-[url('https://i.postimg.cc/MHKDW4bx/footer-background-image.jpg')] bg-no-repeat bg-cover bg-top bg-fixed`}
       >
         {/* Grid layout for footer sections */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 px-5 lg:px-16 py-5 lg:py-16 bg-black bg-opacity-80">

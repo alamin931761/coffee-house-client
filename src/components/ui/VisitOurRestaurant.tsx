@@ -45,7 +45,7 @@ const VisitOurRestaurant = () => {
       </p>
 
       {/* Video section with background image */}
-      <div className="bg-[url('https://i.ibb.co/qnP095P/elevate-your-expectations.jpg')] bg-no-repeat bg-cover bg-top h-[80vh]">
+      <div className="bg-[url('https://i.postimg.cc/GpdbhJNz/elevate-your-expectations.jpg')] bg-no-repeat bg-cover bg-top h-[80vh]">
         {/* Overlay with play button */}
         <div className="h-full w-full flex justify-center items-center bg-black bg-opacity-30">
           {/* Show play button if the video is not playing */}

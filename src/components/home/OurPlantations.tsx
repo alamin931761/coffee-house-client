@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 const OurPlantations = () => {
   return (
     // Background image and styling
-    <div className="bg-[url('https://i.ibb.co/zG0VLKS/plantations.jpg')] bg-no-repeat bg-cover bg-top bg-local h-[500px] text-white ">
+    <div className="bg-[url('https://i.postimg.cc/CLn8jSKX/plantations.jpg')] bg-no-repeat bg-cover bg-top bg-local h-[500px] text-white ">
       <div className="h-full flex flex-col justify-center items-center bg-black bg-opacity-50">
         {/* Title */}
         <h2 className={`text-sm ${oswald.className} mb-4`}>OUR PLANTATIONS</h2>

@@ -5,7 +5,7 @@ const CoffeeExperience = () => {
   return (
     <div className="text-white grid grid-cols-1 lg:grid-cols-2">
       {/* Left section with background image */}
-      <div className="bg-[url('https://i.ibb.co/c3RMH8M/coffee-experience-background-image.jpg')] bg-no-repeat bg-cover bg-right-bottom bg-local h-[420px]">
+      <div className="bg-[url('https://i.postimg.cc/VLkG1SDM/coffee-experience-background-image.jpg')] bg-no-repeat bg-cover bg-right-bottom bg-local h-[420px]">
         <div className="lg:mx-10 p-5 lg:my-16 h-full">
           {/* Title */}
           <h4

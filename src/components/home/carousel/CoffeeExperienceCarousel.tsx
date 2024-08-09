@@ -32,7 +32,7 @@ const CoffeeExperienceCarousel = () => {
         {/* image 1 */}
         <SwiperSlide>
           <Image
-            src="https://i.ibb.co/GJQj64N/expand-your-mind.jpg"
+            src="https://i.postimg.cc/cLQsS5Dr/expand-your-mind.jpg"
             height={420}
             width={650}
             alt=""
@@ -42,7 +42,7 @@ const CoffeeExperienceCarousel = () => {
         {/* image - 2 */}
         <SwiperSlide>
           <Image
-            src="https://i.ibb.co/4Khn5f0/full-taste.jpg"
+            src="https://i.postimg.cc/Gt8CSM83/full-taste.jpg"
             height={420}
             width={650}
             alt=""
@@ -52,7 +52,7 @@ const CoffeeExperienceCarousel = () => {
         {/* image - 3 */}
         <SwiperSlide>
           <Image
-            src="https://i.ibb.co/qnP095P/elevate-your-expectations.jpg"
+            src="https://i.postimg.cc/GpdbhJNz/elevate-your-expectations.jpg"
             height={420}
             width={650}
             alt=""

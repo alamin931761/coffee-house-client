@@ -20,9 +20,9 @@ const Gallery = () => {
         <div className="grid grid-rows-3 lg:grid-rows-1 grid-flow-col">
           {/* image 1 */}
           <div className="col-span-2 lg:row-span-2">
-            <PhotoView src="https://i.ibb.co/QQjdcnn/gallery-1-1000.jpg">
+            <PhotoView src="https://i.postimg.cc/ZRkK3BwD/gallery-1-1000.jpg">
               <Image
-                src="https://i.ibb.co/QQjdcnn/gallery-1-1000.jpg"
+                src="https://i.postimg.cc/ZRkK3BwD/gallery-1-1000.jpg"
                 height={1000}
                 width={1000}
                 alt=""
@@ -33,9 +33,9 @@ const Gallery = () => {
 
           {/* image 2 and 3 */}
           <div className="lg:row-span-2">
-            <PhotoView src="https://i.ibb.co/T8KSrfX/gallery-2-1000.jpg">
+            <PhotoView src="https://i.postimg.cc/ncdF2wdm/gallery-2-1000.jpg">
               <Image
-                src="https://i.ibb.co/mvYhWsB/gallery-2-633.jpg"
+                src="https://i.postimg.cc/SRdywZkw/gallery-2-633.jpg"
                 height={500}
                 width={500}
                 alt=""
@@ -43,9 +43,9 @@ const Gallery = () => {
               />
             </PhotoView>
 
-            <PhotoView src="https://i.ibb.co/xSSX3nK/gallery-3-1000.jpg">
+            <PhotoView src="https://i.postimg.cc/X7NNw0g3/gallery-3-1000.jpg">
               <Image
-                src="https://i.ibb.co/Mgn7Bf7/gallery-3-633.jpg"
+                src="https://i.postimg.cc/KcDvkYBJ/gallery-3-633.jpg"
                 height={500}
                 width={500}
                 alt=""
@@ -56,9 +56,9 @@ const Gallery = () => {
 
           {/* image 4 and 5 */}
           <div className="lg:row-span-2">
-            <PhotoView src="https://i.ibb.co/p42FkpG/gallery-4-1000.jpg">
+            <PhotoView src="https://i.postimg.cc/76ywbvLF/gallery-4-1000.jpg">
               <Image
-                src="https://i.ibb.co/6swj25Y/gallery-4-633.jpg"
+                src="https://i.postimg.cc/Xv5nVNnK/gallery-4-633.jpg"
                 height={500}
                 width={500}
                 alt=""
@@ -66,9 +66,9 @@ const Gallery = () => {
               />
             </PhotoView>
 
-            <PhotoView src="https://i.ibb.co/nn5HJJY/gallery-7-1000.jpg">
+            <PhotoView src="https://i.postimg.cc/vT0sPcvy/gallery-7-1000.jpg">
               <Image
-                src="https://i.ibb.co/Jsd8zpp/gallery-7-633.jpg"
+                src="https://i.postimg.cc/hvDnb9TM/gallery-7-633.jpg"
                 height={500}
                 width={500}
                 alt=""
@@ -79,9 +79,9 @@ const Gallery = () => {
 
           {/* image 6 and 7 */}
           <div className="lg:row-span-2">
-            <PhotoView src="https://i.ibb.co/W0Vv4vX/gallery-8-1000.jpg">
+            <PhotoView src="https://i.postimg.cc/PrFHYvxz/gallery-8-1000.jpg">
               <Image
-                src="https://i.ibb.co/jJ2nHkM/gallery-8-633.jpg"
+                src="https://i.postimg.cc/285m17zS/gallery-8-633.jpg"
                 height={500}
                 width={500}
                 alt=""
@@ -89,9 +89,9 @@ const Gallery = () => {
               />
             </PhotoView>
 
-            <PhotoView src="https://i.ibb.co/YXW3QPK/gallery-5-1000.jpg">
+            <PhotoView src="https://i.postimg.cc/sXyCsp6y/gallery-5-1000.jpg">
               <Image
-                src="https://i.ibb.co/Wxb94tn/gallery-5-633.jpg"
+                src="https://i.postimg.cc/9fyH6xBJ/gallery-5-633.jpg"
                 height={500}
                 width={500}
                 alt=""
@@ -102,9 +102,9 @@ const Gallery = () => {
 
           {/* image 8 */}
           <div className="lg:row-span-1">
-            <PhotoView src="https://i.ibb.co/1zFdK5h/gallery-6-1000.jpg">
+            <PhotoView src="https://i.postimg.cc/t4KHm0Fs/gallery-6-1000.jpg">
               <Image
-                src="https://i.ibb.co/vcmxd5V/gallery-6-500.jpg"
+                src="https://i.postimg.cc/MpMSDZfk/gallery-6-500.jpg"
                 height={1000}
                 width={500}
                 alt=""
