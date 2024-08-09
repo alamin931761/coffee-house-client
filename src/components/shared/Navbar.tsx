@@ -1,8 +1,14 @@
+"use client";
+
 import { oswald } from "@/app/fonts";
 import Link from "next/link";
-import { IoReorderTwoOutline } from "react-icons/io5";
+import { useState } from "react";
+import { IoReorderTwoOutline, IoClose } from "react-icons/io5";
 
 const Navbar = () => {
+  // State to handle dropdown visibility
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
   // Define menu items JSX
   const menuItems = (
     <>
@@ -121,22 +127,22 @@ const Navbar = () => {
         <div className="dropdown">
           <div
             tabIndex={0}
+            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
             className="lg:hidden cursor-pointer px-2 text-5xl transition ease-linear duration-500 hover:text-whiskey outline-none"
           >
-            <IoReorderTwoOutline />
+            {/* Conditionally render the icon based on dropdown state */}
+            {isDropdownOpen ? <IoClose /> : <IoReorderTwoOutline />}
           </div>
 
           {/* Dropdown menu for mobile */}
-          <ul
-            tabIndex={0}
-            className="menu dropdown-content w-screen bg-white mt-2 px-4 flex gap-y-3 navbar-dropdown z-10 transition ease-linear duration-500"
-            style={{
-              transitionDuration: "500ms",
-              transitionTimingFunction: "linear",
-            }}
-          >
-            {menuItems}
-          </ul>
+          {isDropdownOpen && (
+            <ul
+              tabIndex={0}
+              className="menu dropdown-content w-screen bg-white mt-1 px-4 flex gap-y-3 navbar-dropdown z-10"
+            >
+              {menuItems}
+            </ul>
+          )}
         </div>
 
         {/* Logo */}
